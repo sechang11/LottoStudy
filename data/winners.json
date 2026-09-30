@@ -1,0 +1,1125 @@
+{
+ "research": [
+  {
+   "outcome": "Life satisfaction",
+   "direction": "better",
+   "finding": "Swedish winners were more satisfied with their lives 5 to 22 years after winning, with no sign of the effect fading. The biggest gain was in how they felt about their finances. The effect is modest per dollar: about 0.04 standard deviations per $100,000 won.",
+   "study": "Lindqvist, Östling & Cesarini (2020), Review of Economic Studies. 3,362 winners.",
+   "sources": [
+    {
+     "label": "Paper",
+     "url": "https://www.ifn.se/media/tgufbbv5/2020-lindqvist-%C3%B6stling-cesarini-long-run-effects-of-lottery-wealth-on-psychological-well-being.pdf"
+    }
+   ]
+  },
+  {
+   "outcome": "Happiness and mental health",
+   "direction": "mixed",
+   "finding": "The largest study found no significant change in day-to-day happiness or mental health. Smaller UK studies found better mental wellbeing about two years after mid-sized wins. The famous 1978 study claiming winners were no happier than anyone else surveyed only 22 winners.",
+   "study": "Lindqvist et al. (2020); Gardner & Oswald (2007), Journal of Health Economics; Brickman, Coates & Janoff-Bulman (1978).",
+   "sources": [
+    {
+     "label": "Gardner & Oswald",
+     "url": "https://docs.iza.org/dp2233.pdf"
+    }
+   ]
+  },
+  {
+   "outcome": "Health and death rates",
+   "direction": "none",
+   "finding": "Swedish records of hospital stays and deaths showed no change for adult winners. An earlier, smaller Swedish study had found winners got healthier; the larger study did not reproduce that.",
+   "study": "Cesarini, Lindqvist, Östling & Wallace (2016), Quarterly Journal of Economics; Lindahl (2005), Journal of Human Resources.",
+   "sources": [
+    {
+     "label": "Paper",
+     "url": "https://www.ifn.se/media/n14kekao/reprint2016-28.pdf"
+    }
+   ]
+  },
+  {
+   "outcome": "Smoking and drinking",
+   "direction": "worse",
+   "finding": "UK winners' mental health improved, but smokers smoked more and social drinking went up.",
+   "study": "Apouey & Clark (2015), Health Economics.",
+   "sources": [
+    {
+     "label": "Paper",
+     "url": "https://cep.lse.ac.uk/pubs/download/dp1228.pdf"
+    }
+   ]
+  },
+  {
+   "outcome": "Social life",
+   "direction": "better",
+   "finding": "In UK data, bigger wins were linked to meeting friends more often, driven mainly by the largest wins.",
+   "study": "Costa-Font & Powdthavee (2021, IZA discussion paper).",
+   "sources": [
+    {
+     "label": "Paper",
+     "url": "https://ideas.repec.org/p/iza/izadps/dp14489.html"
+    }
+   ]
+  },
+  {
+   "outcome": "Work",
+   "direction": "shift",
+   "finding": "Winners earn somewhat less from work. In US tax records of 90,731 winners, earnings fell about $2.30 a year for every $100 won. In Sweden the drop was about 1.1% of the prize a year, lasting more than a decade.",
+   "study": "Golosov, Graber, Mogstad & Novgorodsky (2024), Quarterly Journal of Economics; Cesarini, Lindqvist, Notowidigdo & Östling (2017), American Economic Review.",
+   "sources": [
+    {
+     "label": "US study",
+     "url": "https://www.nber.org/papers/w29000"
+    },
+    {
+     "label": "Swedish study",
+     "url": "https://eml.berkeley.edu/~saez/course/cesarinietalAER17.pdf"
+    }
+   ]
+  },
+  {
+   "outcome": "Spending and saving",
+   "direction": "shift",
+   "finding": "The money is mostly spread over years rather than blown at once. US winners saved most of the windfall. Norwegian winners' spending peaked in the year of the win and was back to normal within about five years. Swedish winners still had extra wealth more than a decade later, and people who had never owned stocks became more likely to.",
+   "study": "Golosov et al. (2024); Fagereng, Holm & Natvik (2021), AEJ: Macroeconomics; Cesarini et al. (2016); Briggs et al. (2021), Journal of Financial Economics.",
+   "sources": [
+    {
+     "label": "Norway study",
+     "url": "https://www.aeaweb.org/articles?id=10.1257/mac.20190211"
+    }
+   ]
+  },
+  {
+   "outcome": "Bankruptcy",
+   "direction": "none",
+   "label": "Delayed, not prevented",
+   "finding": "Florida winners of $50,000 to $150,000 were less likely to go bankrupt right after winning, but a few years later they were as likely as people who won small prizes. No study has measured the share of jackpot winners who go bankrupt.",
+   "study": "Hankins, Hoekstra & Skiba (2011), Review of Economics and Statistics.",
+   "sources": [
+    {
+     "label": "Abstract",
+     "url": "https://ideas.repec.org/a/tpr/restat/v93y2011i3p961-969.html"
+    }
+   ]
+  },
+  {
+   "outcome": "Neighbors",
+   "direction": "worse",
+   "finding": "Winners' neighbors change too. Dutch winners' next-door neighbors were more likely to buy a new car. In Canada, a win worth a year's median income raised close neighbors' bankruptcy rate by about 7%.",
+   "study": "Kuhn, Kooreman, Soetevent & Kapteyn (2011), American Economic Review; Agarwal, Mikhed & Scholnick (2020), Review of Financial Studies.",
+   "sources": [
+    {
+     "label": "Dutch study",
+     "url": "https://www.aeaweb.org/articles?id=10.1257/aer.101.5.2226"
+    },
+    {
+     "label": "Canadian study",
+     "url": "https://www.philadelphiafed.org/-/media/frbp/assets/working-papers/2018/wp18-16.pdf"
+    }
+   ]
+  },
+  {
+   "outcome": "Marriage and divorce",
+   "direction": "mixed",
+   "finding": "An early Florida study found wins of $25,000 to $50,000 didn't change divorce rates but reduced marriage among single women. Newer, larger studies from the US, Sweden and Taiwan find slightly more marriage after a win, mainly among men, and US tax data show slightly less divorce.",
+   "study": "Hankins & Hoekstra (2011), Journal of Human Resources; Golosov et al. (2024); Cesarini, Lindqvist, Östling & Terskaya (2023, working paper).",
+   "sources": [
+    {
+     "label": "Newer study",
+     "url": "https://www.nber.org/papers/w31039"
+    }
+   ]
+  },
+  {
+   "outcome": "Children",
+   "direction": "none",
+   "label": "Mostly no change",
+   "finding": "Swedish winners' children did no better in school and had slightly more hospital stays. In the US, college enrollment rose a little, and more after wins over $1M. Descendants of the winners of Georgia's 1832 land lottery did no better than others.",
+   "study": "Cesarini et al. (2016); Bulman, Fairlie, Goodman & Isen (2021), American Economic Review; Bleakley & Ferrie (2016), Quarterly Journal of Economics.",
+   "sources": [
+    {
+     "label": "US study",
+     "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20171272"
+    }
+   ]
+  },
+  {
+   "outcome": "Politics",
+   "direction": "shift",
+   "finding": "Winners become more opposed to estate and wealth taxes and drift slightly to the right. Voter turnout doesn't change.",
+   "study": "Doherty, Gerber & Green (2006), Political Psychology; Powdthavee & Oswald (2014); Brännlund et al. (2024, working paper).",
+   "sources": [
+    {
+     "label": "Swedish study",
+     "url": "https://www.nber.org/papers/w32777"
+    }
+   ]
+  }
+ ],
+ "researchNote": "Most of these studies cover prizes of about $10,000 to $1M, not giant jackpots. Several come from Scandinavia, where health care and safety nets are strong, so effects elsewhere may be larger.",
+ "myth": {
+  "stamp": "70%",
+  "title": "“70% of lottery winners go broke” has no source.",
+  "text": "It is usually credited to the National Endowment for Financial Education, which said in 2018 that the figure isn't its research and can't be confirmed. It was probably said by a participant at a 2001 meeting and repeated ever since. The “one-third go bankrupt” claim has no traceable source either.",
+  "sources": [
+   {
+    "label": "NEFE statement",
+    "url": "https://www.nefe.org/news/the-latest/2018/research-statistic-on-financial-windfalls-and-bankruptcy.aspx"
+   }
+  ]
+ },
+ "groupNotes": {
+  "good": "Winners who, by the public record and their own accounts, used the money well: paying off debts, giving much of it away, or building something that lasted.",
+  "mixed": "Real gains alongside real costs, like broken marriages, lawsuits and family strain.",
+  "bad": "Money lost, addiction, isolation or early death. These are the stories the idea of a “lottery curse” is built on. Two involve suicide: if you or someone you know is struggling, call or text 988 in the US and Canada, or call Samaritans on 116 123 in the UK and Ireland.",
+  "ugly": "Crimes against winners, crimes by winners, and fights over tickets. Legal outcomes are as last reported.",
+  "quiet": "Went public once, then kept to themselves, and nothing since has made the news. Most big winners end up here, and many never go public at all."
+ },
+ "method": "We included winners whose stories were widely reported by major news outlets or who went public themselves, and we report only what those sources published, with links. We did not look for anyone's current address, family details or private life. We don't name people who were never convicted, and we left out stories we couldn't confirm. This isn't every winner or a random sample: the news covers disasters and grand gestures, not the many winners whose lives just got more comfortable. For what typically happens, go by the studies above. We found no solid study of crime by or against winners, so the ugly stories are examples, not a rate.",
+ "stories": [
+  {
+   "verdict": "good",
+   "name": "Tom Crist",
+   "year": "2013",
+   "place": "Calgary, Canada",
+   "game": "Lotto Max",
+   "prize": "C$40M",
+   "before": "Newly retired after 44 years with an electrical wholesale company, and already comfortable by his own account. His wife Jan had died of cancer the year before.",
+   "after": "He kept the win secret for months, then pledged all C$40M to charity through a family foundation in his wife's memory, starting with C$1.2M for the cancer centre that had treated her. Some money went into a Calgary children's streaming start-up as an investment, with returns promised to the foundation.",
+   "latest": "A 2015 Calgary Sun report said he was quietly on track to give it all away. He avoids publicity, so there is no public total.",
+   "sources": [
+    {
+     "label": "Global News 2013",
+     "url": "https://globalnews.ca/news/1034841/40m-calgary-lotto-winner-says-hell-donate-all-money-to-foundation-for-charity"
+    },
+    {
+     "label": "Global News 2014",
+     "url": "https://globalnews.ca/news/1241928/40-million-lottery-winner-makes-good-on-charitable-promise"
+    }
+   ],
+   "gist": "Gave his entire C$40M win to charity in memory of his late wife, starting with the cancer centre that treated her."
+  },
+  {
+   "verdict": "good",
+   "name": "Allen and Violet Large",
+   "year": "2010",
+   "place": "Nova Scotia, Canada",
+   "game": "Lotto 6/49",
+   "prize": "C$11.2M",
+   "before": "A retired couple. Allen had been a steel welder and Violet had worked for cosmetics and chocolate companies. Violet was being treated for cancer when they won.",
+   "after": "Within about four months they gave away roughly 98% of it: to family first, then churches, fire departments, the Red Cross, the Salvation Army and the hospitals that treated Violet. Guinness lists it as the largest lottery win donated to charity. Violet said: “What you've never had, you never miss.”",
+   "latest": "Violet died in July 2011, a year after the win. In 2013 Allen was still getting calls from people abroad who had received scam emails using the couple's name.",
+   "sources": [
+    {
+     "label": "Globe and Mail",
+     "url": "https://www.theglobeandmail.com/news/national/violet-large-gave-away-her-lottery-windfall/article2119137/"
+    },
+    {
+     "label": "Guinness",
+     "url": "https://www.guinnessworldrecords.com/world-records/95719-largest-lottery-win-donated-to-charity"
+    },
+    {
+     "label": "CTV 2013",
+     "url": "https://www.ctvnews.ca/atlantic/article/man-plagued-by-scam-artists-years-after-lotto-win"
+    }
+   ],
+   "gist": "Gave away about 98% of their C$11.2M within months, the largest lottery win ever donated to charity."
+  },
+  {
+   "verdict": "good",
+   "name": "Frances and Patrick Connolly",
+   "year": "2019",
+   "place": "Northern Ireland and Hartlepool, England",
+   "game": "EuroMillions",
+   "prize": "£115M",
+   "before": "Grandparents in their fifties. Frances had worked as a social worker and a teacher, and they had lived in Hartlepool for about 25 years.",
+   "after": "Before claiming, they drew up a list of about 50 people to share it with. They set up two charitable trusts that fund young carers, isolated older people, food parcels and more. By Frances's own estimate, about half the prize has gone to family, friends and charity. She has called giving “addictive”.",
+   "latest": "Sky News reported in September 2026 that they were still giving through their trusts and live “the same life, we just live it bigger”.",
+   "sources": [
+    {
+     "label": "Irish Post 2019",
+     "url": "https://www.irishpost.com/news/euromillions-couple-won-115m-new-years-jackpot-revealed-northern-irish-grandparents-patrick-frances-connolly-163092"
+    },
+    {
+     "label": "Sky News via LBC 2026",
+     "url": "https://www.lbc.co.uk/news/uk/lottery-winner-inspired-dolly-parton-gives-half-winnings/"
+    }
+   ],
+   "gist": "Have given about half of their £115M to family, friends and two charitable trusts, and are still giving."
+  },
+  {
+   "verdict": "good",
+   "name": "Lerynne West",
+   "year": "2018",
+   "place": "Iowa",
+   "game": "Powerball",
+   "prize": "$343.9M ($198.1M lump sum)",
+   "before": "A 51-year-old single mother and grandmother who worked in insurance. She had misplaced the ticket, and it turned up on the floor of her sister's truck.",
+   "after": "She announced the Callum Foundation, named for a grandson who died shortly after birth, and gave $500,000 to a charity for wounded veterans.",
+   "latest": "Little has been reported since late 2018.",
+   "sources": [
+    {
+     "label": "Iowa Lottery",
+     "url": "https://www.powerball.com/winner-story/central-iowa-woman-claims-3439-million-powerball-jackpot"
+    },
+    {
+     "label": "NBC News",
+     "url": "https://www.nbcnews.com/news/us-news/iowa-powerball-winner-gives-500k-veterans-group-n936691"
+    }
+   ],
+   "gist": "Started a foundation named for her late grandson and gave $500,000 to a charity for wounded veterans."
+  },
+  {
+   "verdict": "good",
+   "name": "Sandra Hayes",
+   "year": "2006",
+   "place": "Missouri",
+   "game": "Powerball office pool of 13",
+   "prize": "$224M jackpot, about $6M for her after tax",
+   "before": "A single mother working as a state child-services social worker, earning about $26,000 a year and paying off student loans.",
+   "after": "She paid off her student loans and mortgage, bought a Lexus and later a second home, and put herself on a fixed monthly allowance. She wrote a book and a blog about it. Strangers turned up at her work asking for money, a longtime friend tried to scam her, and she said people she loved were “turning into vampires”.",
+   "latest": "Six years on she still shopped at discount stores and described herself as financially stable. Her advice: “If you're not disciplined, you will go broke.”",
+   "sources": [
+    {
+     "label": "AP 2012",
+     "url": "https://www.csmonitor.com/Business/Latest-News-Wires/2012/1128/Powerball-winners-Cautionary-tales-lessons-from-past-lottery-winners"
+    }
+   ],
+   "gist": "Paid off her debts, lived on a fixed allowance and stayed financially stable, despite constant pressure for money."
+  },
+  {
+   "verdict": "good",
+   "name": "Jerry and Marge Selbee",
+   "year": "2003–2012",
+   "place": "Michigan and Massachusetts",
+   "game": "Winfall and Cash WinFall roll-downs",
+   "prize": "About $26.9M gross, $7.75M profit for their group",
+   "before": "Retirees who had run a convenience store in Evart, Michigan. Jerry had a business degree and had worked at Kellogg's.",
+   "after": "Jerry spotted the roll-down math in 2003, and for nine years they ran a syndicate of family and friends. A 2012 state review found it legal, though critics called it an unfair advantage. They say the money went on renovating their house, their grandchildren's education and a camper for trips to national parks.",
+   "latest": "Their story was a 60 Minutes segment in 2019 and the 2022 film Jerry & Marge Go Large.",
+   "sources": [
+    {
+     "label": "HuffPost Highline",
+     "url": "https://highline.huffingtonpost.com/articles/en/lotto-winners/"
+    },
+    {
+     "label": "CBS 60 Minutes",
+     "url": "https://www.cbsnews.com/news/jerry-and-marge-selbee-bet-big-now-hollywood-is-calling-lottery-loophole-60-minutes/"
+    }
+   ],
+   "gist": "Legally beat a flawed game for nine years and spent modestly on family, home and travel."
+  },
+  {
+   "verdict": "good",
+   "name": "Brad Duke",
+   "year": "2005",
+   "place": "Idaho",
+   "game": "Powerball",
+   "prize": "$220.3M, roughly $75–85M after tax",
+   "before": "A Gold's Gym manager earning about $60,000 a year.",
+   "after": "He hired advisers, set a public goal of growing the money to $1 billion, and split it between bonds, riskier oil, gas and real-estate bets, and a family foundation that rebuilt his hometown's stadium and track. He paid off his mortgage and student loans and drove a used car for years, though he also bought an Aston Martin and a Porsche.",
+   "latest": "In 2013 he told NPR he tried to “change as little as I could”. The wealth figures are his own.",
+   "sources": [
+    {
+     "label": "NPR 2013",
+     "url": "https://www.npr.org/2013/08/11/211019737/lottery-winner-stays-grounded-after-220-million-jackpot"
+    },
+    {
+     "label": "Idaho Business Review",
+     "url": "https://idahobusinessreview.com/?p=8910"
+    }
+   ],
+   "gist": "Invested most of a $220M win with advisers, started a family foundation and kept his lifestyle mostly modest."
+  },
+  {
+   "verdict": "good",
+   "name": "The Smith family",
+   "year": "2016",
+   "place": "Trenton, New Jersey",
+   "game": "Powerball",
+   "prize": "Nearly $430M, shared by eight family members",
+   "after": "A year after winning they set up the Smith Family Foundation, which gives grants to Trenton organizations working on education, neighborhood development, and youth and families. A family member who runs its programs said the aim was “long-term change”.",
+   "latest": "CBS reported on the foundation's grant-making in June 2017.",
+   "sources": [
+    {
+     "label": "CBS 2017",
+     "url": "https://www.cbsnews.com/amp/baltimore/news/powerball-helps-others"
+    }
+   ],
+   "gist": "Eight relatives shared nearly $430M and set up a foundation funding Trenton community programs."
+  },
+  {
+   "verdict": "mixed",
+   "name": "Colin and Chris Weir",
+   "year": "2011",
+   "place": "Scotland",
+   "game": "EuroMillions",
+   "prize": "£161.65M",
+   "before": "Colin was a former TV cameraman and Chris a former psychiatric nurse.",
+   "after": "They set up a charitable trust for Scottish community groups and gave about £3.5M to the Yes Scotland independence campaign, which critics called outsized influence by one donor. Colin backed Partick Thistle FC and pledged to hand his controlling stake to its fans. The couple divorced in 2019 after 38 years of marriage, and Colin died that December, aged 71.",
+   "latest": "In November 2022 his stake passed to a fan-run trust, making the club majority fan-owned, as he had planned.",
+   "sources": [
+    {
+     "label": "Channel 4 2014",
+     "url": "https://channel4.com/news/euromillions-couple-dominates-scottish-yes-donations"
+    },
+    {
+     "label": "STV 2019",
+     "url": "https://news.stv.tv/west-central/lotto-winner-and-partick-thistle-owner-colin-weir-has-died"
+    },
+    {
+     "label": "Partick Thistle 2022",
+     "url": "https://ptfc.co.uk/ptfc-news/update-from-the-ptfc-board-after-majority-shareholding-transfer-formally-approved"
+    }
+   ],
+   "gist": "Funded charities, a political campaign and a football club's fan ownership. They later divorced, and Colin died in 2019."
+  },
+  {
+   "verdict": "ugly",
+   "name": "Abraham Shakespeare",
+   "year": "2006",
+   "place": "Florida",
+   "game": "Florida Lotto",
+   "prize": "$30M (about $17M lump sum)",
+   "after": "In 2007 a co-worker sued him over the ticket, and that October he received a lump sum of about $17M. In 2008 a woman befriended him, saying she was writing a book about people taking advantage of him, and took control of his remaining money. He was last seen in April 2009. His body was found in January 2010, buried under a concrete slab at a property linked to her.",
+   "latest": "She was convicted of first-degree murder in 2012 and is serving life without parole. A judge denied her bid for a new trial in 2025.",
+   "sources": [
+    {
+     "label": "NBC News 2012",
+     "url": "https://www.nbcnews.com/news/us-news/cold-calculating-cruel-lottery-murderer-sentenced-life-prison-flna1c7540507"
+    },
+    {
+     "label": "ABC News 2010",
+     "url": "https://abcnews.com/Nightline/woman-charged-missing-lottery-winner-abraham-shakespeares-killing/story?id=9733226"
+    },
+    {
+     "label": "ABC7 2025",
+     "url": "https://abc7.com/post/florida-woman-killed-30m-lottery-winner-denied-new-trial/16197251/"
+    }
+   ],
+   "gist": "Murdered in 2009 by a woman who had taken control of his money. She is serving life without parole."
+  },
+  {
+   "verdict": "ugly",
+   "name": "Jeffrey Dampier Jr.",
+   "year": "1996",
+   "place": "Illinois",
+   "game": "Illinois Lottery",
+   "prize": "$20M",
+   "before": "An Illinois winner who later moved to the Tampa area and opened a popcorn shop.",
+   "after": "In July 2005 he was lured to his sister-in-law's apartment, forced into his van at gunpoint and shot. Authorities said the motive was robbery. Many lists place the killing in Illinois; it happened in Florida.",
+   "latest": "His wife's sister was convicted of first-degree murder, kidnapping and carjacking in 2006 and given three consecutive life sentences.",
+   "sources": [
+    {
+     "label": "ABC News 2005",
+     "url": "https://abcnews.com/US/LegalCenter/story?id=990083"
+    },
+    {
+     "label": "Tampa Bay Times 2006",
+     "url": "https://www.tampabay.com/archive/2006/09/22/guilty-of-murder-she-gets-3-life-terms"
+    }
+   ],
+   "gist": "Kidnapped and killed in 2005 by his sister-in-law, who received three life sentences."
+  },
+  {
+   "verdict": "ugly",
+   "name": "Urooj Khan",
+   "year": "2012",
+   "place": "Chicago",
+   "game": "Illinois scratch-off",
+   "prize": "$1M (about $425,000 after tax)",
+   "before": "He owned dry-cleaning businesses and bought the winning $30 scratch ticket in June 2012.",
+   "after": "He died the day after his check was issued. His death was first ruled natural, but further tests found a lethal level of cyanide and it was reclassified as a homicide. His body was exhumed in 2013, but the poison had broken down.",
+   "latest": "Unsolved. No one has been charged. Police called it an open investigation in 2016.",
+   "sources": [
+    {
+     "label": "CNN Wire 2013",
+     "url": "https://www.wtvr.com/2013/01/08/lottery-winner-killed"
+    },
+    {
+     "label": "NPR 2013",
+     "url": "https://www.kunc.org/npr-news/2013-03-01/no-cyanide-detected-in-chicago-lottery-winners-remains"
+    },
+    {
+     "label": "AP 2016",
+     "url": "https://globalnews.ca/news/2755975/sister-of-lottery-winner-poisoned-with-cyanide-says-police-have-done-nothing"
+    }
+   ],
+   "gist": "Died of cyanide poisoning the day after his check was issued. The case is still unsolved."
+  },
+  {
+   "verdict": "ugly",
+   "name": "Craigory Burch Jr.",
+   "year": "2015",
+   "place": "Georgia",
+   "game": "Fantasy 5",
+   "prize": "$434,272",
+   "before": "A 20-year-old forklift driver.",
+   "after": "Two months after winning, masked men forced their way into his home, demanded money and shot him dead. The sheriff said he was targeted. Seven people were charged.",
+   "latest": "Three men were convicted of murder in 2017, and the Georgia Supreme Court upheld all three convictions by 2021.",
+   "sources": [
+    {
+     "label": "AP 2016",
+     "url": "https://www.cbsnews.com/amp/news/7-charged-with-murder-in-killing-of-georgia-lottery-winner-craigory-burch"
+    },
+    {
+     "label": "WTOC 2021",
+     "url": "https://www.wtoc.com/2021/09/08/ga-supreme-court-convicted-fitzgerald-lottery-killer-loses-appeal/"
+    }
+   ],
+   "gist": "Shot dead in a home invasion two months after winning. Three men were convicted of his murder."
+  },
+  {
+   "verdict": "ugly",
+   "name": "Maunds Bryant",
+   "year": "2016",
+   "place": "Illinois",
+   "game": "Illinois Lottery",
+   "prize": "$420,000 won by his family",
+   "before": "A 41-year-old man whose family had recently won a lottery prize.",
+   "after": "In December 2016 he and a relative were abducted and held for a $25,000 ransom because of the win. He died of a head injury in captivity.",
+   "latest": "His kidnapper pleaded guilty to murder in 2018.",
+   "sources": [
+    {
+     "label": "AP 2018",
+     "url": "https://www.cbsnews.com/chicago/news/lottery-kidnapping-bloomington/"
+    },
+    {
+     "label": "WCBU 2018",
+     "url": "https://www.wcbu.org/peoria-public-radio-news/2018-09-05/peoria-man-pleads-guilty-in-kidnapping-death-of-normal-man"
+    }
+   ],
+   "gist": "Kidnapped for ransom because of his family's win, and died in captivity. His kidnapper pleaded guilty."
+  },
+  {
+   "verdict": "ugly",
+   "name": "Renné Senna",
+   "year": "2005",
+   "place": "Rio de Janeiro state, Brazil",
+   "game": "Mega-Sena",
+   "prize": "R$52M",
+   "before": "A farmer who had won one of Brazil's biggest jackpots.",
+   "after": "He was shot dead at a bar in January 2007. Police named his widow as the suspected mastermind. A jury acquitted her in 2011, but the verdict was annulled.",
+   "latest": "She was convicted at a retrial in 2016, arrested in 2018 after a period on the run, and cut out of his estate by Brazil's Supreme Federal Court in 2021.",
+   "sources": [
+    {
+     "label": "Jornal do Brasil 2018",
+     "url": "https://www.jb.com.br/pais/noticias/2018/06/20/amp/presa-viuva-de-ganhador-da-mega-sena-que-estava-foragida-da-justica.html"
+    },
+    {
+     "label": "Metrópoles 2021",
+     "url": "https://www.metropoles.com/brasil/disputa-por-heranca-de-ganhador-da-mega-termina-viuva-fica-de-fora"
+    }
+   ],
+   "gist": "Shot dead in 2007. His widow was later convicted of ordering the killing."
+  },
+  {
+   "verdict": "ugly",
+   "name": "Bob Edmonds",
+   "year": "2001",
+   "place": "Ontario, Canada",
+   "game": "Super 7 with Encore",
+   "prize": "C$250,000",
+   "before": "A retiree who asked a store clerk to check his ticket.",
+   "after": "The clerk gave him a free-ticket prize and kept the ticket, and she and her husband claimed the C$250,000. Criminal charges against them were stayed in 2005. He sued and settled with them for C$150,000, and with the lottery corporation, which had fought his claim, for C$200,000.",
+   "latest": "His case led to Ontario's Ombudsman report A Game of Trust in 2007, which faulted the lottery's handling of retailer wins. He died in April 2007, aged 83.",
+   "sources": [
+    {
+     "label": "Law Times",
+     "url": "https://lawtimesnews.com/news/general/questions-remain-about-olgs-conduct/259096"
+    },
+    {
+     "label": "CBC 2007",
+     "url": "https://www.cbc.ca/news/canada/man-who-sparked-probe-of-ontario-lottery-agency-dies-1.672246"
+    }
+   ],
+   "gist": "A store clerk kept his winning ticket, and his fight with the lottery led to a province-wide investigation."
+  },
+  {
+   "verdict": "ugly",
+   "name": "The forgotten $3M ticket",
+   "year": "2023",
+   "place": "Lakeville, Massachusetts",
+   "game": "Mega Millions",
+   "prize": "$3M",
+   "before": "A customer left a winning ticket in the lottery terminal tray at a liquor store.",
+   "after": "A clerk tried to claim it at lottery headquarters with a torn, partly burned ticket. Store video showed who had really bought it, and the rightful buyer was paid in 2023.",
+   "latest": "The clerk pleaded guilty to presenting a false claim in 2024 and got two years' probation.",
+   "sources": [
+    {
+     "label": "Plymouth County DA",
+     "url": "https://plymouthda.com/news/2024-press-releases/former-convenience-store-clerk-pleads-guilty-in-scheme-to-steal-3m-winning-lottery-ticket/"
+    },
+    {
+     "label": "Boston Globe 2024",
+     "url": "https://www.bostonglobe.com/2024/02/09/metro/lakeville-liquor-clerk-sentenced-in-3-million-lottery-ticket-scam"
+    }
+   ],
+   "gist": "A clerk tried to cash a ticket a customer left behind. She pleaded guilty, and the buyer was paid."
+  },
+  {
+   "verdict": "ugly",
+   "name": "Ronnie Music Jr.",
+   "year": "2015",
+   "place": "Georgia",
+   "game": "Scratch-off",
+   "prize": "$3M",
+   "before": "A Georgia man with a prior felony record.",
+   "after": "Prosecutors said he used his winnings to buy crystal meth for resale. He was arrested after a sale to an informant, and agents seized 11 guns.",
+   "latest": "He pleaded guilty and was sentenced in 2017 to 21 years in federal prison.",
+   "sources": [
+    {
+     "label": "AP 2017",
+     "url": "https://www.cbsnews.com/news/lottery-winner-who-invested-part-of-3m-prize-in-meth-ring-learns-fate"
+    },
+    {
+     "label": "U.S. Attorney",
+     "url": "https://www.justice.gov/usao-sdga/pr/lottery-winner-sentenced-21-years-federal-prison-his-role-drug-trafficking-ring"
+    }
+   ],
+   "gist": "Put his winnings into a meth ring and got 21 years in federal prison."
+  },
+  {
+   "verdict": "ugly",
+   "name": "Iorworth Hoare",
+   "year": "2004",
+   "place": "England",
+   "game": "National Lottery",
+   "prize": "About £7M",
+   "before": "Serving a life sentence for attempted rape. He bought the ticket on a supervised day release from prison.",
+   "after": "His victim sued him for damages. Lower courts said she was too late, but in 2008 the House of Lords changed the law to let her claim go ahead.",
+   "latest": "The High Court allowed her claim to proceed in July 2008. The case is now a landmark in UK law on time limits for abuse claims.",
+   "sources": [
+    {
+     "label": "AP 2008",
+     "url": "https://www.nbcnews.com/news/amp/wbna25591853"
+    },
+    {
+     "label": "JURIST 2008",
+     "url": "https://www.jurist.org/news/2008/01/uk-law-lords-allow-lawsuit-against/"
+    }
+   ],
+   "gist": "A man serving a life sentence won £7M, and his victim's lawsuit changed UK law."
+  },
+  {
+   "verdict": "ugly",
+   "name": "Denise Rossi",
+   "year": "1996",
+   "place": "California",
+   "game": "California Lottery office pool",
+   "prize": "$1.3M share",
+   "before": "Married for about 25 years when her office pool won.",
+   "after": "Eleven days after the win she filed for divorce without disclosing it, and had lottery mail sent elsewhere. Her ex-husband found out in 1999 when a letter was delivered to his home by mistake.",
+   "latest": "A judge awarded all of the winnings to her ex-husband for concealing them, and the California Court of Appeal upheld it in 2001.",
+   "sources": [
+    {
+     "label": "LA Times 1999",
+     "url": "https://www.latimes.com/archives/la-xpm-1999-nov-17-mn-34537-story.html"
+    },
+    {
+     "label": "Court opinion",
+     "url": "https://law.justia.com/cases/california/court-of-appeal/4th/90/34.html"
+    }
+   ],
+   "gist": "Hid a $1.3M win during her divorce, and a court gave all of it to her ex-husband."
+  },
+  {
+   "verdict": "ugly",
+   "name": "Americo Lopes",
+   "year": "2009",
+   "place": "New Jersey",
+   "game": "Mega Millions",
+   "prize": "$38.5M share (about $24M cash)",
+   "before": "A construction worker who had pooled lottery tickets with five co-workers since 2007.",
+   "after": "After the draw he told his boss he needed foot surgery and stopped coming to work. He said the winning ticket was one he had bought on his own. His co-workers sued.",
+   "latest": "In 2012 a jury unanimously ruled for the co-workers, entitling each to about $4M.",
+   "sources": [
+    {
+     "label": "AP 2012",
+     "url": "https://www.cbsnews.com/news/nj-jury-says-lottery-jackpot-winner-must-pay-coworkers-millions/"
+    },
+    {
+     "label": "NBC News 2012",
+     "url": "https://www.nbcnews.com/news/world/jury-mega-millions-winner-must-share-co-workers-flna441508"
+    }
+   ],
+   "gist": "Claimed an office-pool jackpot as his own. A jury ordered him to share it with five co-workers."
+  },
+  {
+   "verdict": "ugly",
+   "name": "The $2.04B ticket lawsuit",
+   "year": "2022",
+   "place": "California",
+   "game": "Powerball",
+   "prize": "$2.04B record jackpot",
+   "before": "The California Lottery named the winner in February 2023, as state law requires, and said it had vetted him.",
+   "after": "Days later a man sued, claiming he had bought the ticket and that it was taken from him. The winner's lawyer said store video showed the winner buying it.",
+   "latest": "The court dismissed the lottery commission from the case in March 2024, and the rest of the suit was dismissed for good in October 2024. No court found that the ticket was stolen.",
+   "sources": [
+    {
+     "label": "NBC News 2023",
+     "url": "https://www.nbcnews.com/news/us-news/winner-historic-2b-powerball-sued-man-claims-ticket-was-stolen-rcna86400"
+    },
+    {
+     "label": "KFI 2024",
+     "url": "https://kfiam640.iheart.com/alternate/amp/2024-03-01-commission-dismissed-as-defendant-in-professed-powerball-winners-suit"
+    },
+    {
+     "label": "KOGO 2024",
+     "url": "https://kogo.iheart.com/content/2024-10-02-decision-made-on-lawsuit-against-204-billion-powerball-winner"
+    }
+   ],
+   "gist": "A man claimed the record-winning ticket had been stolen from him. The suit was dismissed."
+  },
+  {
+   "verdict": "ugly",
+   "name": "Fake winner giveaways",
+   "year": "Ongoing",
+   "place": "Social media",
+   "game": "",
+   "prize": "",
+   "before": "Scammers copy the names and photos of real jackpot winners, including several on this page.",
+   "after": "They promise cash giveaways, then ask people to pay “taxes” or “fees”, usually with gift cards. The FTC's rule of thumb: if you have to pay to collect a prize, it's a scam.",
+   "latest": "The FTC issued a consumer alert about fake social-media giveaways in May 2024.",
+   "sources": [
+    {
+     "label": "FTC alert",
+     "url": "https://consumer.ftc.gov/consumer-alerts/2024/05/free-money-social-media-nah-its-scam"
+    },
+    {
+     "label": "FTC guidance",
+     "url": "https://consumer.ftc.gov/articles/fake-prize-sweepstakes-and-lottery-scams"
+    }
+   ],
+   "gist": "Scammers impersonate real winners online to collect “fees” from hopeful strangers."
+  },
+  {
+   "verdict": "quiet",
+   "name": "Mavis Wanczyk",
+   "year": "2017",
+   "place": "Massachusetts",
+   "game": "Powerball",
+   "prize": "$758.7M ($480M lump sum)",
+   "before": "A 53-year-old who had worked at a Springfield hospital for 32 years.",
+   "after": "She phoned work to say she wouldn't be coming back, and at her press conference said the first thing she wanted was to “sit back and relax”. Within days, police warned about dozens of fake social-media accounts using her name to scam people.",
+   "latest": "She has stayed out of the public eye since 2017.",
+   "sources": [
+    {
+     "label": "AP 2017",
+     "url": "https://www.arkansasonline.com/news/2017/aug/25/hospital-worker-758m-lottery-winner-201/"
+    },
+    {
+     "label": "Boston Globe 2017",
+     "url": "https://www.bostonglobe.com/metro/2017/08/29/police-powerball-winner-mavis-wanczyk-isn-contacting-you/DF9YB8aERVhQQfpMD3MBgP/story.html"
+    }
+   ],
+   "gist": "Quit her hospital job the day she claimed $758.7M, and hasn't been in the news since."
+  },
+  {
+   "verdict": "quiet",
+   "name": "John and Lisa Robinson",
+   "year": "2016",
+   "place": "Tennessee",
+   "game": "Powerball",
+   "prize": "One third of $1.586B, about $327M lump sum",
+   "before": "John was a warehouse supervisor and Lisa worked at a dermatologist's office.",
+   "after": "On a lawyer's advice they went on the Today show to get ahead of the attention. They said they would pay off their mortgage and their daughter's student loans, keep working, tithe to their church and give to St. Jude Children's Research Hospital.",
+   "latest": "They have since asked for privacy.",
+   "sources": [
+    {
+     "label": "AP 2016",
+     "url": "https://www.csmonitor.com/USA/Society/2016/0116/Tennessee-lottery-winner-A-firm-believer-in-tithing-at-church"
+    }
+   ],
+   "gist": "Went on TV, promised to keep working and give to charity, then asked for privacy."
+  },
+  {
+   "verdict": "quiet",
+   "name": "Marvin and Mae Acosta",
+   "year": "2016",
+   "place": "California",
+   "game": "Powerball",
+   "prize": "One third of $1.586B, about $327.8M lump sum",
+   "before": "Unknown. They gave no interviews.",
+   "after": "In a statement released through the lottery, they said nearly all of the money would go to a trust and to charities.",
+   "latest": "Nothing further has been reported.",
+   "sources": [
+    {
+     "label": "AP 2016",
+     "url": "https://www.foxnews.com/us/couple-claims-528m-share-of-powerball-jackpot-will-donate-most-to-charity"
+    }
+   ],
+   "gist": "Said nearly all of their share would go to a trust and charities, and gave no interviews."
+  },
+  {
+   "verdict": "bad",
+   "name": "Jack Whittaker",
+   "year": "2002",
+   "place": "West Virginia",
+   "game": "Powerball",
+   "prize": "$314.9M ($170M cash option)",
+   "before": "Already a self-made millionaire at 55, running a contracting business worth about $17M. He said he had grown up very poor.",
+   "after": "He pledged a tenth of the prize to churches, and his foundation built churches and handed out food, clothing and scholarships; his lawyer said he had given more than $20M to charity by 2004. He also gave the store clerk who sold him the ticket a house, a car and $44,000. Then came about $545,000 in cash and checks stolen from his vehicle, two drunk-driving arrests, roughly 460 legal actions, the deaths of his 17-year-old granddaughter in 2004 and his daughter in 2009, and the end of his marriage. His wife said she wished she had torn up the ticket, and in 2007 he said the same.",
+   "latest": "His uninsured house burned down in 2016. He died in June 2020, aged 72, after a long illness. Claims that he died broke or of an overdose aren't supported by reputable reporting.",
+   "sources": [
+    {
+     "label": "AP 2007",
+     "url": "https://www.nbcnews.com/id/wbna20763630"
+    },
+    {
+     "label": "ABC 20/20 2007",
+     "url": "https://abcnews.go.com/2020/story?id=3012631"
+    },
+    {
+     "label": "WSAZ 2020",
+     "url": "https://www.wsaz.com/2020/07/01/private-funeral-planned-for-jack-whittaker"
+    }
+   ],
+   "gist": "Gave more than $20M to charity, then faced thefts, hundreds of lawsuits and family deaths. He said he wished he'd torn the ticket up."
+  },
+  {
+   "verdict": "bad",
+   "name": "William “Bud” Post",
+   "year": "1988",
+   "place": "Pennsylvania",
+   "game": "Pennsylvania Lottery",
+   "prize": "$16.2M, paid yearly",
+   "before": "He had worked odd jobs as a carnival hand, truck driver and cook, and was living on disability after a work injury. He said he pawned a ring for $40 to buy the tickets.",
+   "after": "His former landlady sued for a share, and a court awarded her a third in 1992. He spent and gave freely, including buying a brother a car dealership, and filed for bankruptcy in the early 1990s. His obituary reported that another brother had been convicted of trying to arrange his killing. Post himself was convicted of assault for firing a gun at a man trying to collect a debt.",
+   "latest": "He died in 2006, aged 66, of respiratory failure.",
+   "sources": [
+    {
+     "label": "Pittsburgh Post-Gazette 2006",
+     "url": "https://www.post-gazette.com/news/obituaries/2006/01/18/Obituary-William-Post-III-Lottery-winner-whose-wealth-brought-grief-troubled-times/stories/200601180181"
+    }
+   ],
+   "gist": "Lost a third of his prize in court and was bankrupt within a few years, and a brother plotted to have him killed."
+  },
+  {
+   "verdict": "bad",
+   "name": "Evelyn Adams",
+   "year": "1985–86",
+   "place": "New Jersey",
+   "game": "Pick-6, won twice",
+   "prize": "$5.4M total, paid over 20 years",
+   "before": "She had worked about ten years at a convenience store on the Jersey Shore.",
+   "after": "She was believed to be the first US lottery winner to become a millionaire twice. She gave away and lent large sums, much of it never repaid, and lost much of the rest gambling in Atlantic City and on bad investments.",
+   "latest": "In 2012 she told the New York Post she was broke and working two jobs. Her advice to new winners was to see a lawyer and an accountant first.",
+   "sources": [
+    {
+     "label": "UPI 1986",
+     "url": "https://www.latimes.com/archives/la-xpm-1986-02-14-mn-7862-story.html"
+    },
+    {
+     "label": "NY Post 2012",
+     "url": "https://nypost.com/2012/03/30/winners-beware-meet-the-four-who-went-from-jackpot-to-jack-squat/"
+    },
+    {
+     "label": "NBC News 2016",
+     "url": "https://www.nbcnews.com/better/money/when-lottery-riches-lead-ruin-eight-winners-whose-luck-ran-n495826"
+    }
+   ],
+   "gist": "Won twice, then lost it to gifts, gambling and bad investments. By 2012 she was broke and working two jobs."
+  },
+  {
+   "verdict": "bad",
+   "name": "Michael Carroll",
+   "year": "2002",
+   "place": "England",
+   "game": "National Lottery",
+   "prize": "£9.7M",
+   "before": "A 19-year-old part-time binman with a string of minor convictions.",
+   "after": "He gave relatives big gifts and spent on dozens of cars, houses and parties, and has described heavy drug and alcohol use in those years. He was in court repeatedly and jailed for nine months for affray in 2006. His wife left, he paid a divorce settlement, and he was declared bankrupt in 2010.",
+   "latest": "In 2019 he was delivering coal and firewood in Scotland seven days a week. He said he had no regrets and was happier with his life back.",
+   "sources": [
+    {
+     "label": "Guardian 2005",
+     "url": "https://www.theguardian.com/uk/2005/jun/29/ukcrime.lottery"
+    },
+    {
+     "label": "NZ Herald 2019",
+     "url": "https://www.nzherald.co.nz/lifestyle/teen-lotto-winner-michael-carroll-who-won-31m-now-works-7-days-a-week-as-a-delivery-man/OF6MMMK2RBEU5D25ULYIEBHJZY/"
+    },
+    {
+     "label": "Guardian 2022",
+     "url": "https://www.theguardian.com/uk-news/2022/may/19/curse-of-the-lottery-what-happened-next-to-four-winners"
+    }
+   ],
+   "gist": "Went through £9.7M in about eight years amid addiction, jail and divorce. He later said he's happier working."
+  },
+  {
+   "verdict": "bad",
+   "name": "Callie Rogers",
+   "year": "2003",
+   "place": "England",
+   "game": "National Lottery",
+   "prize": "About £1.9M",
+   "before": "A 16-year-old living with foster parents and working a supermarket checkout.",
+   "after": "She bought homes for herself and her mother, spent heavily, and gave large sums to friends and family, later saying she came to feel people wanted her only for her money. By about 2009 the money was gone. She has said she wished she had been older, and in 2021 the UK raised the minimum age for playing to 18.",
+   "latest": "In 2023 she was reported to be training as a nurse.",
+   "sources": [
+    {
+     "label": "Guardian 2022",
+     "url": "https://www.theguardian.com/uk-news/2022/may/19/curse-of-the-lottery-what-happened-next-to-four-winners"
+    },
+    {
+     "label": "LBC 2023",
+     "url": "https://www.lbc.co.uk/article/britains-youngest-lottery-winner-who-blew-18m-on-drugs-and-surgery-is-retraining-DWzRtH_2/"
+    },
+    {
+     "label": "Guardian 2020",
+     "url": "https://www.theguardian.com/uk-news/2020/dec/08/uk-national-lottery-players-must-be-over-18-from-next-year"
+    }
+   ],
+   "gist": "Won at 16 and had spent it by her early twenties. She later retrained as a nurse."
+  },
+  {
+   "verdict": "bad",
+   "name": "Billie Bob Harrell Jr.",
+   "year": "1997",
+   "place": "Texas",
+   "game": "Lotto Texas",
+   "prize": "$31M, paid over 25 years",
+   "before": "A former assistant pastor and ex-Marine who was stocking shelves at a Home Depot after layoffs. His bank account was overdrawn when he claimed the prize.",
+   "after": "He put the prize in a trust, bought a ranch and homes for relatives, tithed to his church and paid for hundreds of holiday dinners for needy families. Requests for money never stopped, his marriage broke down, and in 1999 he sold ten years of future payments for a much smaller lump sum. He told a financial adviser that winning was the worst thing that had happened to him.",
+   "latest": "He died by suicide in May 1999, according to the medical examiner. His parents disputed the ruling.",
+   "sources": [
+    {
+     "label": "Houston Press 2000",
+     "url": "https://www.houstonpress.com/news/billie-bobs-mis-fortune-6565369/"
+    },
+    {
+     "label": "NBC News 2016",
+     "url": "https://www.nbcnews.com/better/money/when-lottery-riches-lead-ruin-eight-winners-whose-luck-ran-n495826"
+    }
+   ],
+   "gist": "Gave generously but was overwhelmed by requests, lost his marriage, and died by suicide two years after winning."
+  },
+  {
+   "verdict": "bad",
+   "name": "Mack Metcalf and Virginia Merida",
+   "year": "2000",
+   "place": "Kentucky",
+   "game": "Powerball",
+   "prize": "$65.4M jackpot ($34.1M cash)",
+   "before": "A married couple. He drove a forklift and she made corrugated boxes.",
+   "after": "They separated soon after the win. He bought an estate modeled on Mount Vernon and classic cars, and faced claims over back child support and a lawsuit over money he had given away; a court ordered a trust for his daughter. He died in 2003, aged 45, and the man who bought his estate said alcoholism had been a factor. She was found dead at home in 2005, aged 51.",
+   "latest": "No official cause of her death appears in the reports we found.",
+   "sources": [
+    {
+     "label": "AP 2005",
+     "url": "https://www.nbcnews.com/id/wbna10216247"
+    },
+    {
+     "label": "AP via Fox News 2005",
+     "url": "https://www.foxnews.com/story/powerball-winner-found-dead"
+    }
+   ],
+   "gist": "A married couple who split after winning. He died three years later and she five."
+  },
+  {
+   "verdict": "bad",
+   "name": "Gerald Muswagon",
+   "year": "1998",
+   "place": "Manitoba, Canada",
+   "game": "Super 7",
+   "prize": "C$10M",
+   "before": "A man from a northern Manitoba community, with little formal education and a criminal record.",
+   "after": "He bought vehicles and big-screen TVs for friends, his home became a party house, and a logging business he started failed. By 2005 nearly all the money was gone and he was doing farm labor to support his partner and six children. A cousin said he had been depressed and faced constant demands, without good advisers around him.",
+   "latest": "He died by suicide in 2005, aged 42.",
+   "sources": [
+    {
+     "label": "Globe and Mail 2005",
+     "url": "https://www.theglobeandmail.com/news/national/lottery-winner-hangs-self-7-years-after-collecting-win/article4121212/"
+    }
+   ],
+   "gist": "Spent almost all of C$10M within seven years and died by suicide in 2005."
+  },
+  {
+   "verdict": "bad",
+   "name": "Janite Lee",
+   "year": "1993",
+   "place": "St. Louis area",
+   "game": "Illinois Lottery",
+   "prize": "$18M, paid yearly",
+   "before": "A South Korean immigrant, 52, who ran a wig shop in downtown St. Louis.",
+   "after": "She became a major donor. A reading room at Washington University's law school carries her name, and she funded meals for homeless people and Korean-American community groups. She also gave heavily to Democratic politics, lost money at casinos and on a restaurant, and sold her remaining payments for a lump sum.",
+   "latest": "She filed for bankruptcy in 2001, listing $2.5M in debts against $1.8M in assets. Retellings often say she was left with $700; that was only the cash in her bank accounts.",
+   "sources": [
+    {
+     "label": "NBC News 2016",
+     "url": "https://www.nbcnews.com/better/money/when-lottery-riches-lead-ruin-eight-winners-whose-luck-ran-n495826"
+    },
+    {
+     "label": "ABC7 2015",
+     "url": "https://abc7ny.com/post/broke-and-murdered-real-life-lottery-horror-stories/510374"
+    }
+   ],
+   "gist": "A generous donor who filed for bankruptcy eight years after an $18M win."
+  },
+  {
+   "verdict": "bad",
+   "name": "Suzanne Mullins",
+   "year": "1993",
+   "place": "Virginia",
+   "game": "Virginia Lottery",
+   "prize": "$4.2M shared with her husband and daughter",
+   "after": "In 1998 she borrowed about $198,000 against her yearly payments. Her lawyer said the debts grew out of about $1M in medical bills for an uninsured son-in-law, who died in 2000. She later cashed out her remaining payments and stopped repaying the loan.",
+   "latest": "In 2004 a court awarded the lender about $154,000. Her lawyer said her story was not one of luxury. She never spoke publicly.",
+   "sources": [
+    {
+     "label": "AP 2004",
+     "url": "http://usatoday30.usatoday.com/news/offbeat/2004-05-03-lottery-winner_x.htm"
+    }
+   ],
+   "gist": "Fell into debt, largely over an uninsured relative's medical bills, and lost a lawsuit to a lender."
+  },
+  {
+   "verdict": "bad",
+   "name": "David Lee Edwards",
+   "year": "2001",
+   "place": "Kentucky",
+   "game": "Powerball",
+   "prize": "About $27M share of a $280M jackpot",
+   "before": "He had served prison time for armed robbery.",
+   "after": "When he claimed the prize he said he wanted to make it last for future generations. Instead he bought a Florida mansion, a Learjet, luxury cars and racehorses. He and his wife became addicted to drugs and were arrested repeatedly, and the money was gone within about five years.",
+   "latest": "He died in hospice care in 2013, aged 58.",
+   "sources": [
+    {
+     "label": "Fox News 2022",
+     "url": "https://www.foxnews.com/us/10-times-hitting-lottery-jackpot-ended-disaster-wish-id-torn-ticket-up"
+    }
+   ],
+   "gist": "Spent a $27M share on mansions, a jet and racehorses. The money was gone within about five years."
+  },
+  {
+   "verdict": "bad",
+   "name": "Roger and Lara Griffiths",
+   "year": "2005",
+   "place": "England",
+   "game": "National Lottery",
+   "prize": "About £1.8M",
+   "after": "Roger told the BBC they put most of the money into property and businesses rather than luxuries, and lost it when the 2008 financial crisis hit. It's the opposite of the usual spending-spree story.",
+   "latest": "By 2013 they were struggling to pay bills.",
+   "sources": [
+    {
+     "label": "BBC 2013",
+     "url": "https://www.bbc.co.uk/news/av/uk-21844573"
+    }
+   ],
+   "gist": "Invested their win in property and businesses and lost it in the 2008 financial crisis."
+  },
+  {
+   "verdict": "bad",
+   "name": "Lee Ryan",
+   "year": "1995",
+   "place": "England",
+   "game": "National Lottery",
+   "prize": "£6.5M",
+   "after": "He spent on cars, a helicopter and a mansion, was later jailed for handling stolen cars, and ended up sleeping rough in London. He has said he believes his win was cursed.",
+   "latest": "The Guardian revisited his story in 2022.",
+   "sources": [
+    {
+     "label": "Guardian 2022",
+     "url": "https://www.theguardian.com/uk-news/2022/may/19/curse-of-the-lottery-what-happened-next-to-four-winners"
+    }
+   ],
+   "gist": "Spent £6.5M, was jailed for handling stolen cars, and later slept rough in London."
+  },
+  {
+   "verdict": "mixed",
+   "name": "Sharon Tirabassi",
+   "year": "2004",
+   "place": "Ontario, Canada",
+   "game": "Ontario lottery jackpot",
+   "prize": "More than C$10M",
+   "before": "A single mother on welfare.",
+   "after": "She spent on a big house, cars, parties and travel, and made gifts and loans to family and friends. She also put part of the win into trusts for her six children, paid out when each turns 26.",
+   "latest": "By 2013 she was working part-time, renting and taking the bus, and told The Hamilton Spectator that life had gone back to normal.",
+   "sources": [
+    {
+     "label": "Business Insider",
+     "url": "https://www.businessinsider.com/17-lottery-winners-who-blew-it-all-2013-5"
+    }
+   ],
+   "gist": "Spent most of more than C$10M within a decade, but set up trusts for her six children."
+  },
+  {
+   "verdict": "mixed",
+   "name": "Adrian and Gillian Bayford",
+   "year": "2012",
+   "place": "England",
+   "game": "EuroMillions",
+   "prize": "About £148M",
+   "before": "Adrian co-owned a small music shop and Gillian was a healthcare assistant on a children's hospital ward. They said money had been tight.",
+   "after": "They pledged to share the money with family and friends and to support children's charities. About 15 months later they announced they were divorcing. Adrian said they were still friends and blamed the stress of managing the fortune and too little time together.",
+   "latest": "Both remained wealthy. Nothing later was verified.",
+   "sources": [
+    {
+     "label": "BBC 2012",
+     "url": "https://www.bbc.co.uk/news/uk-england-19254228"
+    },
+    {
+     "label": "Guardian 2013",
+     "url": "https://www.theguardian.com/commentisfree/2013/dec/03/lottery-wins-dont-cause-divorce-daily-mail"
+    }
+   ],
+   "gist": "Shared a £148M win with family and divorced about 15 months later, amicably by their account."
+  },
+  {
+   "verdict": "mixed",
+   "name": "Stuart Donnelly",
+   "year": "1997",
+   "place": "Scotland",
+   "game": "National Lottery syndicate",
+   "prize": "About £1.9M share",
+   "before": "A 17-year-old trainee pharmacist who shared a £25M jackpot with 12 others.",
+   "after": "He was known for his generosity, including a donation to a Glasgow children's hospital and homes for his parents. In 2003 he said the attention, including people camping outside his house, had put a heavy strain on him and his family, and he later lived quietly.",
+   "latest": "He died at home in 2010, aged 29. Police said there were no suspicious circumstances, and nothing reported links his death to the win.",
+   "sources": [
+    {
+     "label": "Guardian 2010",
+     "url": "https://www.theguardian.com/uk/2010/jan/07/scotland-youngest-lottery-winner-dead"
+    }
+   ],
+   "gist": "Won at 17, gave generously and said the attention strained his family. He died at 29; nothing links it to the win."
+  },
+  {
+   "verdict": "ugly",
+   "name": "Alex and Rhoda Toth",
+   "year": "1990",
+   "place": "Florida",
+   "game": "Florida Lotto",
+   "prize": "$13M, paid over 20 years",
+   "after": "After heavy spending and bankruptcy filings, they were charged in 2006 over false tax returns. Alex died before trial.",
+   "latest": "Rhoda pleaded guilty, served about two years and was ordered to repay about $1.1M.",
+   "sources": [
+    {
+     "label": "NBC News 2016",
+     "url": "https://www.nbcnews.com/better/money/when-lottery-riches-lead-ruin-eight-winners-whose-luck-ran-n495826"
+    }
+   ],
+   "gist": "After heavy spending and bankruptcies they were charged with tax fraud, and Rhoda served about two years."
+  },
+  {
+   "verdict": "ugly",
+   "name": "Amanda Clayton",
+   "year": "2011",
+   "place": "Michigan",
+   "game": "Make Me Rich! (Michigan Lottery TV game show)",
+   "prize": "$1M ($735,000 lump sum)",
+   "after": "She kept receiving food assistance and medical benefits without reporting the win. Michigan's attorney general charged her with welfare fraud in 2012, and the state passed a law requiring the lottery to report winners to its human-services department.",
+   "latest": "She pleaded no contest in 2012 and was sentenced to nine months' probation and ordered to repay $5,475.",
+   "sources": [
+    {
+     "label": "AP 2012",
+     "url": "https://www.bangordailynews.com/2012/06/28/news/michigan-lottery-winner-pleads-no-contest-to-fraud/"
+    },
+    {
+     "label": "Detroit Free Press 2012",
+     "url": "https://www.bangordailynews.com/2012/07/24/news/mich-lottery-winner-gets-probation-for-welfare-fraud"
+    }
+   ],
+   "gist": "Kept collecting food assistance after a $1M win and pleaded no contest to welfare fraud."
+  }
+ ]
+}

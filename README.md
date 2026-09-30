@@ -16,6 +16,7 @@ Open `index.html` in any browser. It's one self-contained file, so you can send 
 | What people pick | Number popularity measured from 2,327 draws of prize-winner counts |
 | Randomness | Frequency and hot/cold tests on 2,345 draws |
 | Real edges | Mandel, Cash WinFall, Lotto Texas 2023 and others, plus why none of them work on Powerball or Mega Millions |
+| Winners | What large studies say happens to winners, plus sourced good, mixed, bad and ugly stories (`data/winners.json`) |
 
 ## Project layout
 

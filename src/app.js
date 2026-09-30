@@ -806,6 +806,29 @@
     });
   }
 
+
+  /* =========================================================
+     Winners: filter the story groups (all groups visible by default)
+     ========================================================= */
+  function initWinnerFilter() {
+    const bar = $('#w-filter');
+    if (!bar) return;
+    $$('button', bar).forEach(function (b) {
+      b.addEventListener('click', function () {
+        const f = b.dataset.filter;
+        $$('button', bar).forEach(function (x) { x.setAttribute('aria-pressed', String(x === b)); });
+        $$('.story-group').forEach(function (g) { g.hidden = f !== 'all' && g.dataset.group !== f; });
+      });
+    });
+    const ex = $('#w-expand');
+    if (ex) ex.addEventListener('click', function () {
+      const open = ex.getAttribute('aria-pressed') !== 'true';
+      ex.setAttribute('aria-pressed', String(open));
+      ex.textContent = open ? 'Close all stories' : 'Open all stories';
+      $$('.story-more').forEach(function (d) { d.open = open; });
+    });
+  }
+
   /* =========================================================
      Nav highlight
      ========================================================= */
@@ -836,5 +859,6 @@
   renderFreq();
   onResize($('#e-bday'), renderBday);
   onResize($('#r-freq'), renderFreq);
+  initWinnerFilter();
   initNav();
 })();
