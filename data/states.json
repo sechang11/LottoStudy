@@ -1,0 +1,366 @@
+{
+ "source": "Tax Foundation 2026 state income tax rates (Feb 17, 2026) with later 2026 cuts in AR, GA, SC, WV; CA Gov. Code 8880.68; PA Act 84 of 2016; NYC and Maryland county top rates.",
+ "states": [
+  {
+   "code": "none",
+   "label": "No state income tax: FL, NH, SD, TN, TX, WA, WY (0%)",
+   "name": "a state with no income tax",
+   "short": "a state with no income tax",
+   "rate": 0
+  },
+  {
+   "code": "AZ",
+   "label": "Arizona (2.5%)",
+   "name": "Arizona",
+   "short": "Arizona",
+   "rate": 0.025
+  },
+  {
+   "code": "AR",
+   "label": "Arkansas (3.7%)",
+   "name": "Arkansas",
+   "short": "Arkansas",
+   "rate": 0.037
+  },
+  {
+   "code": "CA",
+   "label": "California (0%, CA-bought tickets)",
+   "name": "California",
+   "short": "California",
+   "rate": 0.0,
+   "note": "Prizes on tickets bought in California are exempt"
+  },
+  {
+   "code": "CO",
+   "label": "Colorado (4.4%)",
+   "name": "Colorado",
+   "short": "Colorado",
+   "rate": 0.044
+  },
+  {
+   "code": "CT",
+   "label": "Connecticut (6.99%)",
+   "name": "Connecticut",
+   "short": "Connecticut",
+   "rate": 0.0699
+  },
+  {
+   "code": "DE",
+   "label": "Delaware (6.6%)",
+   "name": "Delaware",
+   "short": "Delaware",
+   "rate": 0.066
+  },
+  {
+   "code": "DC",
+   "label": "District of Columbia (10.75%)",
+   "name": "District of Columbia",
+   "short": "District of Columbia",
+   "rate": 0.1075
+  },
+  {
+   "code": "FL",
+   "label": "Florida (0%)",
+   "name": "Florida",
+   "short": "Florida",
+   "rate": 0.0
+  },
+  {
+   "code": "GA",
+   "label": "Georgia (4.99%)",
+   "name": "Georgia",
+   "short": "Georgia",
+   "rate": 0.0499
+  },
+  {
+   "code": "ID",
+   "label": "Idaho (5.3%)",
+   "name": "Idaho",
+   "short": "Idaho",
+   "rate": 0.053
+  },
+  {
+   "code": "IL",
+   "label": "Illinois (4.95%)",
+   "name": "Illinois",
+   "short": "Illinois",
+   "rate": 0.0495
+  },
+  {
+   "code": "IN",
+   "label": "Indiana (2.95%, plus county income tax)",
+   "name": "Indiana",
+   "short": "Indiana",
+   "rate": 0.0295,
+   "note": "plus county income tax"
+  },
+  {
+   "code": "IA",
+   "label": "Iowa (3.8%)",
+   "name": "Iowa",
+   "short": "Iowa",
+   "rate": 0.038
+  },
+  {
+   "code": "KS",
+   "label": "Kansas (5.58%)",
+   "name": "Kansas",
+   "short": "Kansas",
+   "rate": 0.0558
+  },
+  {
+   "code": "KY",
+   "label": "Kentucky (3.5%)",
+   "name": "Kentucky",
+   "short": "Kentucky",
+   "rate": 0.035
+  },
+  {
+   "code": "LA",
+   "label": "Louisiana (3%)",
+   "name": "Louisiana",
+   "short": "Louisiana",
+   "rate": 0.03
+  },
+  {
+   "code": "ME",
+   "label": "Maine (7.15%)",
+   "name": "Maine",
+   "short": "Maine",
+   "rate": 0.0715
+  },
+  {
+   "code": "MD",
+   "label": "Maryland with top county tax (9.8%)",
+   "name": "Maryland",
+   "short": "Maryland with county tax",
+   "rate": 0.065,
+   "local": 0.033
+  },
+  {
+   "code": "MA",
+   "label": "Massachusetts (9%)",
+   "name": "Massachusetts",
+   "short": "Massachusetts",
+   "rate": 0.09
+  },
+  {
+   "code": "MI",
+   "label": "Michigan (4.25%)",
+   "name": "Michigan",
+   "short": "Michigan",
+   "rate": 0.0425
+  },
+  {
+   "code": "MN",
+   "label": "Minnesota (9.85%)",
+   "name": "Minnesota",
+   "short": "Minnesota",
+   "rate": 0.0985
+  },
+  {
+   "code": "MS",
+   "label": "Mississippi (4%)",
+   "name": "Mississippi",
+   "short": "Mississippi",
+   "rate": 0.04
+  },
+  {
+   "code": "MO",
+   "label": "Missouri (4.7%)",
+   "name": "Missouri",
+   "short": "Missouri",
+   "rate": 0.047
+  },
+  {
+   "code": "MT",
+   "label": "Montana (5.65%)",
+   "name": "Montana",
+   "short": "Montana",
+   "rate": 0.0565
+  },
+  {
+   "code": "NE",
+   "label": "Nebraska (4.55%)",
+   "name": "Nebraska",
+   "short": "Nebraska",
+   "rate": 0.0455
+  },
+  {
+   "code": "NH",
+   "label": "New Hampshire (0%)",
+   "name": "New Hampshire",
+   "short": "New Hampshire",
+   "rate": 0.0
+  },
+  {
+   "code": "NJ",
+   "label": "New Jersey (10.75%)",
+   "name": "New Jersey",
+   "short": "New Jersey",
+   "rate": 0.1075
+  },
+  {
+   "code": "NM",
+   "label": "New Mexico (5.9%)",
+   "name": "New Mexico",
+   "short": "New Mexico",
+   "rate": 0.059
+  },
+  {
+   "code": "NY",
+   "label": "New York (10.9%)",
+   "name": "New York",
+   "short": "New York",
+   "rate": 0.109
+  },
+  {
+   "code": "NYC",
+   "label": "New York City (14.776%: state + city)",
+   "name": "New York City",
+   "short": "New York City",
+   "rate": 0.109,
+   "local": 0.03876
+  },
+  {
+   "code": "NC",
+   "label": "North Carolina (3.99%)",
+   "name": "North Carolina",
+   "short": "North Carolina",
+   "rate": 0.0399
+  },
+  {
+   "code": "ND",
+   "label": "North Dakota (2.5%)",
+   "name": "North Dakota",
+   "short": "North Dakota",
+   "rate": 0.025
+  },
+  {
+   "code": "OH",
+   "label": "Ohio (2.75%)",
+   "name": "Ohio",
+   "short": "Ohio",
+   "rate": 0.0275
+  },
+  {
+   "code": "OK",
+   "label": "Oklahoma (4.5%)",
+   "name": "Oklahoma",
+   "short": "Oklahoma",
+   "rate": 0.045
+  },
+  {
+   "code": "OR",
+   "label": "Oregon (9.9%)",
+   "name": "Oregon",
+   "short": "Oregon",
+   "rate": 0.099
+  },
+  {
+   "code": "PA",
+   "label": "Pennsylvania (3.07%)",
+   "name": "Pennsylvania",
+   "short": "Pennsylvania",
+   "rate": 0.0307
+  },
+  {
+   "code": "RI",
+   "label": "Rhode Island (5.99%)",
+   "name": "Rhode Island",
+   "short": "Rhode Island",
+   "rate": 0.0599
+  },
+  {
+   "code": "SC",
+   "label": "South Carolina (5.21%)",
+   "name": "South Carolina",
+   "short": "South Carolina",
+   "rate": 0.0521
+  },
+  {
+   "code": "SD",
+   "label": "South Dakota (0%)",
+   "name": "South Dakota",
+   "short": "South Dakota",
+   "rate": 0.0
+  },
+  {
+   "code": "TN",
+   "label": "Tennessee (0%)",
+   "name": "Tennessee",
+   "short": "Tennessee",
+   "rate": 0.0
+  },
+  {
+   "code": "TX",
+   "label": "Texas (0%)",
+   "name": "Texas",
+   "short": "Texas",
+   "rate": 0.0
+  },
+  {
+   "code": "VT",
+   "label": "Vermont (8.75%)",
+   "name": "Vermont",
+   "short": "Vermont",
+   "rate": 0.0875
+  },
+  {
+   "code": "VA",
+   "label": "Virginia (5.75%)",
+   "name": "Virginia",
+   "short": "Virginia",
+   "rate": 0.0575
+  },
+  {
+   "code": "WA",
+   "label": "Washington (0%)",
+   "name": "Washington",
+   "short": "Washington",
+   "rate": 0.0
+  },
+  {
+   "code": "WV",
+   "label": "West Virginia (4.58%)",
+   "name": "West Virginia",
+   "short": "West Virginia",
+   "rate": 0.0458
+  },
+  {
+   "code": "WI",
+   "label": "Wisconsin (7.65%)",
+   "name": "Wisconsin",
+   "short": "Wisconsin",
+   "rate": 0.0765
+  },
+  {
+   "code": "WY",
+   "label": "Wyoming (0%)",
+   "name": "Wyoming",
+   "short": "Wyoming",
+   "rate": 0.0
+  },
+  {
+   "code": "AL",
+   "label": "Alabama (no lottery; tickets bought elsewhere) (5%)",
+   "name": "Alabama",
+   "short": "Alabama",
+   "rate": 0.05
+  },
+  {
+   "code": "HI",
+   "label": "Hawaii (no lottery; tickets bought elsewhere) (11%)",
+   "name": "Hawaii",
+   "short": "Hawaii",
+   "rate": 0.11
+  },
+  {
+   "code": "UT",
+   "label": "Utah (no lottery; tickets bought elsewhere) (4.5%)",
+   "name": "Utah",
+   "short": "Utah",
+   "rate": 0.045
+  }
+ ]
+}

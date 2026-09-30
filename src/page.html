@@ -1,0 +1,584 @@
+<header class="sign" aria-label="Advertised jackpots">
+  <div class="wrap">
+    <div class="sign-row">
+      <div class="sign-game">Powerball · Wed Sep 30</div>
+      <div class="sign-amount">$409 MILLION</div>
+      <div class="sign-meta"><span>cash <b>$170.2M</b></span><span>odds 1 in 292.2M</span></div>
+    </div>
+    <div class="sign-row">
+      <div class="sign-game">Mega Millions · Fri Oct 2</div>
+      <div class="sign-amount">$321 MILLION</div>
+      <div class="sign-meta"><span>cash <b>$131.1M</b></span><span>odds 1 in 290.5M</span></div>
+    </div>
+  </div>
+  <div class="wrap sign-note">Advertised jackpots as of September 30, 2026. The calculator below takes any jackpot size.</div>
+</header>
+
+<nav class="topnav" aria-label="Sections">
+  <ul>
+    <li><a href="#verdict">Verdict</a></li>
+    <li><a href="#value">Ticket value</a></li>
+    <li><a href="#spread">Spread builder</a></li>
+    <li><a href="#check">Your numbers</a></li>
+    <li><a href="#crowd">What people pick</a></li>
+    <li><a href="#random">Randomness</a></li>
+    <li><a href="#edges">Real edges</a></li>
+    <li><a href="#ai">What AI can do</a></li>
+    <li><a href="#faq">FAQ</a></li>
+  </ul>
+</nav>
+
+<main class="wrap">
+
+<section id="verdict" class="hero">
+  <div class="eyebrow">Lottery Edge Lab · built for Sovereignty</div>
+  <h1>Can AI beat the lottery? <span class="no">No.</span></h1>
+  <p class="lede">Every combination of numbers is exactly as likely as every other, and both games pay only half of what they take in back out as prizes. We went looking for an edge anyway, using ticket sales, taxes, the odds of every prize tier and the prize-winner counts from 2,327 Powerball and Mega Millions draws. Nothing makes a ticket worth its price. Three levers make it lose less, and one of them is a real advantage over other players.</p>
+
+  <div class="verdict-grid">
+    <div class="worth">
+      <div class="worth-label">Average value of one $2 Powerball ticket for the <span id="hero-jackpot">$409M</span> jackpot, after federal tax and expected jackpot splits</div>
+      <div class="worth-figure"><span id="hero-ev">$0.63</span><span class="of">of $2.00</span></div>
+      <div class="meter" aria-hidden="true"><span id="hero-meter" style="width:32%"></span></div>
+      <div class="worth-foot">About <span id="hero-ret">32%</span> comes back. You lose <b id="hero-lose">$1.37</b> per ticket on average, before any state tax. <a href="#value">Try your own state and jackpot.</a></div>
+    </div>
+    <div>
+      <div class="levers">
+        <div class="lever">
+          <div class="lever-n">1</div>
+          <div>
+            <h3>Pick numbers other people avoid</h3>
+            <p>Your odds stay exactly the same. What changes is how many people you'd split a jackpot with. We measured the crowd: birthdays, 7 and low numbers are heavily overplayed.</p>
+            <span class="size">+6 to +10% per jackpot win at record sizes, under 1% at normal ones</span>
+          </div>
+        </div>
+        <div class="lever">
+          <div class="lever-n">2</div>
+          <div>
+            <h3>Only play the biggest jackpots</h3>
+            <p>The jackpot is the only part of a ticket's value that grows. At record sizes, ticket sales explode, so splits and taxes eat most of the gain.</p>
+            <span class="size">$0.63 tonight, about $1.67 at the $2.04B record. Never $2.</span>
+          </div>
+        </div>
+        <div class="lever">
+          <div class="lever-n">3</div>
+          <div>
+            <h3>Spread your tickets</h3>
+            <p>A different Powerball on every ticket, and no two tickets sharing a pair of numbers. The average payout doesn't move, but you win something more often.</p>
+            <span class="size">10 tickets: 36% → 40% chance to win something</span>
+          </div>
+        </div>
+      </div>
+      <div class="nope">
+        <h3>Tested, doesn't work</h3>
+        <ul>
+          <li>Hot numbers</li><li>“Due” numbers</li><li>Past-draw frequencies</li><li>Lucky stores</li><li>Wheeling systems</li><li>Pattern-spotting AI</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="value" class="block">
+  <div class="block-head">
+    <div class="eyebrow">Tool 1 · expected value</div>
+    <h2>What is a ticket actually worth?</h2>
+    <div class="asked"><b>Your question</b>At what jackpot does playing become mathematically worth it, and how many tickets should you buy?</div>
+    <p>Expected value is what a ticket pays back on average across every possible draw. This calculator combines the cash option (what the jackpot is worth today), federal and state tax, and the odds and prize of every tier. It also uses a model of how many tickets get sold at each jackpot size, which decides how often you'd have to split.</p>
+  </div>
+
+  <div class="panel tool">
+    <div class="controls">
+      <div class="field">
+        <span class="label" id="v-game-l">Game</span>
+        <div class="seg" id="v-game" role="group" aria-labelledby="v-game-l">
+          <button type="button" data-game="pb" aria-pressed="true">Powerball · $2</button>
+          <button type="button" data-game="mm" aria-pressed="false">Mega Millions · $5</button>
+        </div>
+      </div>
+      <div class="field">
+        <label for="v-jackpot">Advertised jackpot</label>
+        <div class="range-row">
+          <input type="range" id="v-jackpot" min="0" max="1000" step="1" value="500">
+          <span class="range-val" id="v-jackpot-val">$409M</span>
+        </div>
+        <div class="chips">
+          <button type="button" class="chip pb-only" data-jp="409000000">Now $409M</button>
+          <button type="button" class="chip mm-only" data-jp="321000000" hidden>Now $321M</button>
+          <button type="button" class="chip" data-jp="1000000000">$1B</button>
+          <button type="button" class="chip pb-only" data-jp="2040000000">Record $2.04B</button>
+          <button type="button" class="chip mm-only" data-jp="1602000000" hidden>Record $1.6B</button>
+        </div>
+      </div>
+      <div class="field">
+        <label for="v-state">Your state</label>
+        <select id="v-state"></select>
+        <span class="hint">The top rate that would apply to a jackpot-size win. Your home state taxes it wherever you bought the ticket.</span>
+      </div>
+      <div class="field">
+        <span class="label" id="v-pick-l">How you pick numbers</span>
+        <div class="seg stack" id="v-pick" role="group" aria-labelledby="v-pick-l">
+          <button type="button" data-pick="qp" aria-pressed="true">Quick pick</button>
+          <button type="button" data-pick="self" aria-pressed="false">Favorites</button>
+          <button type="button" data-pick="anti" aria-pressed="false">Crowd-avoiding</button>
+        </div>
+        <span class="hint">“Favorites” means numbers chosen the way people usually choose them.</span>
+      </div>
+      <details class="more">
+        <summary>More assumptions</summary>
+        <div class="field">
+          <label for="v-cash">Cash option, % of advertised jackpot</label>
+          <input type="number" id="v-cash" min="5" max="100" step="0.1" value="41.6">
+          <span class="hint">Set by interest rates. It ran 41 to 48% in 2025 and 2026.</span>
+        </div>
+        <div class="field">
+          <label for="v-fed">Federal tax on big prizes, %</label>
+          <input type="number" id="v-fed" min="0" max="60" step="1" value="37">
+        </div>
+        <div class="field">
+          <label for="v-plays">Tickets sold for this draw, millions</label>
+          <input type="number" id="v-plays" min="0.1" step="0.1" placeholder="estimated">
+          <span class="hint">Leave blank to use our sales model. Recent record draws sold 130 to 280 million tickets.</span>
+        </div>
+      </details>
+    </div>
+
+    <div class="out">
+      <div>
+        <div class="worth-figure tool-figure"><span id="v-ev">$0.63</span><span class="of">per <span id="v-price">$2.00</span> ticket · <span id="v-ret">32% back</span></span></div>
+        <div class="muted small">Average loss per ticket: <b id="v-lose">$1.37</b> · Jackpot odds <span id="v-odds" class="num">1 in 292,201,338</span></div>
+      </div>
+      <div>
+        <div class="chart-title">Where the jackpot goes</div>
+        <div class="falls" id="v-falls"></div>
+      </div>
+      <div class="stats">
+        <div class="stat"><div class="k">Tickets likely sold</div><div class="v" id="v-plays-out">17 million</div></div>
+        <div class="stat"><div class="k">Chance you'd split, if you win</div><div class="v" id="v-split">6%</div></div>
+        <div class="stat"><div class="k">Value from smaller prizes</div><div class="v" id="v-lower">$0.27</div></div>
+        <div class="stat"><div class="k">Value from the jackpot</div><div class="v" id="v-jpev">$0.36</div></div>
+      </div>
+      <figure class="chart">
+        <div class="chart-title">Ticket value as the jackpot grows</div>
+        <div class="legend" aria-hidden="true">
+          <span><i style="background:var(--s-qp)"></i>Quick pick</span>
+          <span><i style="background:var(--s-fav)"></i>Your own favorites</span>
+          <span><i style="background:var(--s-anti)"></i>Crowd-avoiding</span>
+        </div>
+        <div class="svgbox" id="v-chart"></div>
+        <figcaption>Average value after tax and splits, using the state and assumptions on the left. The red line marks the jackpot you picked.</figcaption>
+        <details class="table-toggle"><summary>Show as a table</summary><div class="tablewrap"><table class="data" id="v-table"></table></div></details>
+      </figure>
+      <div class="big-answer"><b class="eyebrow" style="display:block;margin-bottom:4px">When is it worth playing?</b><span id="v-answer"></span></div>
+      <div class="big-answer"><b class="eyebrow" style="display:block;margin-bottom:4px">How many tickets should you buy?</b><span id="k-text"></span></div>
+      <p class="muted small" id="v-addon" style="margin:0"></p>
+    </div>
+  </div>
+</section>
+
+<section id="spread" class="block">
+  <div class="block-head">
+    <div class="eyebrow">Tool 2 · the optimal spread</div>
+    <h2>Spreading several tickets</h2>
+    <div class="asked"><b>Your question</b>If you play several games, is there an optimal spread of numbers?</div>
+    <p>There is, and here is exactly what it buys you. Any set of different tickets has the same jackpot odds: 10 tickets are 10 chances in 292,201,338 however you arrange them, and the average payout is fixed too. The arrangement controls two other things: how often you win something, and how many people you'd share a jackpot with.</p>
+  </div>
+
+  <div class="panel tool">
+    <div class="controls">
+      <div class="field">
+        <span class="label" id="s-game-l">Game</span>
+        <div class="seg" id="s-game" role="group" aria-labelledby="s-game-l">
+          <button type="button" data-game="pb" aria-pressed="true">Powerball</button>
+          <button type="button" data-game="mm" aria-pressed="false">Mega Millions</button>
+        </div>
+      </div>
+      <div class="field">
+        <label for="s-n">Number of tickets</label>
+        <div class="range-row">
+          <input type="range" id="s-n" min="1" max="50" step="1" value="10">
+          <input type="number" id="s-n-num" min="1" max="50" value="10" style="width:5rem" aria-label="Number of tickets, typed">
+        </div>
+      </div>
+      <div class="field">
+        <span class="label" id="s-mode-l">Style</span>
+        <div class="seg stack" id="s-mode" role="group" aria-labelledby="s-mode-l">
+          <button type="button" data-mode="smart" aria-pressed="true">Crowd-avoiding spread</button>
+          <button type="button" data-mode="spread" aria-pressed="false">Spread only</button>
+          <button type="button" data-mode="random" aria-pressed="false">Quick picks</button>
+        </div>
+      </div>
+      <button type="button" class="btn ghost" id="s-regen">Generate a new set</button>
+      <ul class="list-check small">
+        <li>A different bonus ball on every ticket until all are used. The bonus ball decides most small prizes.</li>
+        <li>No two tickets share more than one white ball, so they never win or lose as a block.</li>
+        <li>White balls mostly from the underplayed range, and the least-picked bonus balls first.</li>
+        <li>No runs, evenly spaced sets, same last digits, famous combos or past winners.</li>
+      </ul>
+    </div>
+    <div class="out">
+      <div class="ticket" id="s-ticket">
+        <div class="ticket-head"><b id="s-t-game">Powerball</b><span id="s-t-style">Crowd-avoiding spread</span></div>
+        <ol id="s-list" aria-label="Generated tickets"></ol>
+        <div class="ticket-foot"><span id="s-t-plays">10 plays</span><span>Jackpot odds <span id="s-jp">1 in 29,220,134</span></span><span id="s-t-cost">Cost $20.00</span></div>
+      </div>
+      <div class="ticket-actions"><button type="button" class="btn" id="s-copy">Copy numbers</button><span class="muted small">Jackpot odds depend only on how many different tickets you hold, not how they're arranged.</span></div>
+      <div class="stats">
+        <div class="stat"><div class="k">Chance to win something</div><div class="v" id="s-any">40%</div><div class="d" id="s-any-qp">Quick picks: 36%</div></div>
+        <div class="stat"><div class="k">White balls shared</div><div class="v" id="s-overlap">At most 1</div><div class="d" id="s-overlap-d"></div></div>
+        <div class="stat"><div class="k" id="s-bonus-k">Powerballs covered</div><div class="v" id="s-bonus">10 of 26</div></div>
+        <div class="stat"><div class="k">Crowd factor</div><div class="v" id="s-crowd">0.73×</div><div class="d">Expected co-holders vs. an average ticket</div></div>
+      </div>
+      <div>
+        <div class="chart-title">The three styles, same number of tickets</div>
+        <div class="tablewrap"><table class="data" id="s-compare"></table></div>
+        <p class="muted small" id="s-same" style="margin:8px 0 0"></p>
+        <p class="muted small" style="margin:6px 0 0">Win chances come from 40,000 simulated draws of each set. With 26 or more Powerball tickets in either spread style, every red ball is covered, so you're guaranteed at least $4 back. That is a guaranteed win and a guaranteed loss at the same time.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="check" class="block">
+  <div class="block-head">
+    <div class="eyebrow">Tool 3 · crowd check</div>
+    <h2>Who else is playing your numbers?</h2>
+    <p>Enter the numbers you play. The model estimates how many other people hold the exact same ticket. That decides how many ways a jackpot would be split if your numbers came up.</p>
+  </div>
+  <div class="panel tool">
+    <div class="controls">
+      <div class="field">
+        <span class="label" id="c-game-l">Game</span>
+        <div class="seg" id="c-game" role="group" aria-labelledby="c-game-l">
+          <button type="button" data-game="pb" aria-pressed="true">Powerball</button>
+          <button type="button" data-game="mm" aria-pressed="false">Mega Millions</button>
+        </div>
+      </div>
+      <div class="field">
+        <span class="label" id="c-picks-l">Your numbers</span>
+        <div class="picks" id="c-picks" role="group" aria-labelledby="c-picks-l">
+          <input class="white" type="number" min="1" max="69" value="3" aria-label="White ball 1">
+          <input class="white" type="number" min="1" max="69" value="7" aria-label="White ball 2">
+          <input class="white" type="number" min="1" max="69" value="12" aria-label="White ball 3">
+          <input class="white" type="number" min="1" max="69" value="19" aria-label="White ball 4">
+          <input class="white" type="number" min="1" max="69" value="25" aria-label="White ball 5">
+          <span class="plus" aria-hidden="true">+</span>
+          <input class="bonus" id="c-bonus" type="number" min="1" max="26" value="7" aria-label="Bonus ball">
+        </div>
+        <span class="hint">Five white balls, then the <span id="c-bonus-label">Powerball</span> in red.</span>
+      </div>
+      <div class="field">
+        <span class="label">Try one</span>
+        <div class="chips" id="c-presets"></div>
+      </div>
+      <p class="small" id="c-error" role="alert" hidden style="color:var(--bad-text);margin:0"></p>
+    </div>
+    <div class="out" id="c-result">
+      <div class="stats">
+        <div class="stat"><div class="k">Crowd factor</div><div class="v" id="c-factor">1.0×</div><div class="d" id="c-pctile"></div></div>
+        <div class="stat"><div class="k" id="c-now-k">Other winners to expect at the current jackpot</div><div class="v" id="c-now">0</div></div>
+        <div class="stat"><div class="k" id="c-rec-k">Other winners to expect at a record jackpot</div><div class="v" id="c-rec">0</div></div>
+        <div class="stat"><div class="k">Share you'd keep at a record jackpot</div><div class="v" id="c-share">100%</div><div class="d" id="c-share-d"></div></div>
+      </div>
+      <ul class="flags" id="c-flags"></ul>
+      <p class="muted small" style="margin:0">The crowd factor compares the expected number of copies of this ticket with an average ticket (1.0×). It blends quick picks, which are random, with self-picked tickets, which follow the popularity we measured. Famous patterns like 1-2-3-4-5 are played far more than any single-number model can capture, so treat a flagged pattern as worse than its figure.</p>
+    </div>
+  </div>
+</section>
+
+<section id="crowd" class="block">
+  <div class="block-head">
+    <div class="eyebrow">Evidence 1 · player habits</div>
+    <h2>We measured which numbers people pick</h2>
+    <div class="asked"><b>Your question</b>Do people who choose their own numbers lean toward certain numbers, and can public data show it?</div>
+    <p>Yes, clearly. After every draw, the lotteries publish how many tickets won each of the nine prize tiers. When the winning numbers are popular, more tickets match them. We collected those counts for 1,396 Powerball draws (October 2015 to September 2026) and 931 Mega Millions draws (October 2017 to September 2026), then fitted a model of how people pick their numbers.</p>
+  </div>
+
+  <div class="two">
+    <div class="slip">
+      <div class="slip-head">
+        <span class="t" id="e-slip-title">Powerball</span>
+        <div class="seg" id="e-game" role="group" aria-label="Game shown on the slip">
+          <button type="button" data-game="pb" aria-pressed="true">Powerball</button>
+          <button type="button" data-game="mm" aria-pressed="false">Mega Millions</button>
+        </div>
+      </div>
+      <div class="slip-sub" style="margin-top:0">White balls</div>
+      <div class="slip-grid" id="e-slip-white" style="margin-top:6px"></div>
+      <div class="slip-sub" id="e-slip-bonus">Powerball (1–26)</div>
+      <div class="slip-grid bonus" id="e-slip-bonus-grid"></div>
+      <div class="scale" aria-hidden="true">
+        <div class="scale-bar" id="e-scale-bar"></div>
+        <div class="scale-labels"><span>Avoided (½×)</span><span>Average</span><span>Crowded (2×)</span></div>
+      </div>
+      <p class="small muted" style="margin:10px 0 0">How often each number appears on self-picked tickets compared with the average number, assuming 70% of all tickets are quick picks. Hover over or tab to a number for its value.</p>
+      <details class="table-toggle"><summary>Show as a table</summary><div class="tablewrap"><table class="data" id="e-table"></table></div></details>
+    </div>
+    <div class="prose">
+      <h3>What the data says</h3>
+      <ul class="findings">
+        <li><b>7 is the most over-picked number in both games.</b> It appears on about 1.66× as many self-picked tickets as the average number. Then come 11, 9, 3 and 12.</li>
+        <li><b>Birthdays dominate.</b> Numbers 1 to 31 run about 1.29× average as a block, and 32 to 69 about 0.76×. The least-picked numbers, 64, 61 and 63, sit under 0.6×.</li>
+        <li><b>The red ball follows the same habits.</b> Powerball 7 is picked 1.43× as often as average, while 1, 16 and 20 are near 0.78×. Mega Millions players favor Mega Ball 11 and 7.</li>
+        <li><b>The model checks out.</b> From winner counts alone, it reproduces each draw's reported ticket sales to within about 1% (median over 1,370 Powerball and 911 Mega Millions draws).</li>
+        <li><b>Patterns are far worse than any single number.</b> In Dutch lottery data, 1-2-3-4-5-6 was on about 3,100× as many tickets as a random combination, and the “Lost” numbers on about 5,100× (Wang et al., 2016).</li>
+        <li><b>The exact multipliers depend on the quick-pick share.</b> Lottery officials put it near 70%. At 60% or 80%, the 7 comes out at 1.5× or 1.95×.</li>
+      </ul>
+      <figure class="chart" style="margin-top:18px">
+        <div class="chart-title">When the winning numbers look like birthdays, more people match them</div>
+        <div class="chart-sub">Powerball tickets that matched 3 or more white balls, compared with what the same number of random tickets would produce. Uses reported sales for 1,370 draws.</div>
+        <div class="svgbox" id="e-bday"></div>
+        <details class="table-toggle"><summary>Show as a table</summary><div class="tablewrap"><table class="data" id="e-bday-table"></table></div></details>
+      </figure>
+    </div>
+  </div>
+
+  <h3 style="margin-top:36px">Crowds that picked the same numbers</h3>
+  <div class="stories">
+    <div class="story">
+      <div class="yr">Powerball · Apr 29, 2026</div>
+      <div class="big">89</div>
+      <p>tickets matched all five white balls on 3-19-35-51-67, an evenly spaced sequence. About 0.8 were expected. Two tickets also split the jackpot.</p>
+    </div>
+    <div class="story">
+      <div class="yr">Powerball · Mar 30, 2005</div>
+      <div class="big">110</div>
+      <p>second-prize winners against 4 or 5 expected. Nearly all had played the numbers printed inside fortune cookies from one Queens factory.</p>
+    </div>
+    <div class="story">
+      <div class="yr">Philippines · Oct 1, 2022</div>
+      <div class="big">433</div>
+      <p>jackpot winners on 9-18-27-36-45-54, all multiples of 9. Each took about ₱545,000 of a ₱236M jackpot.</p>
+    </div>
+    <div class="story">
+      <div class="yr">UK Lotto · Jan 14, 1995</div>
+      <div class="big">133</div>
+      <p>jackpot winners when about 5 were expected. The six numbers sat in two neat columns of the play slip.</p>
+    </div>
+  </div>
+</section>
+
+<section id="random" class="block">
+  <div class="block-head">
+    <div class="eyebrow">Evidence 2 · the draws</div>
+    <h2>Past draws predict nothing</h2>
+    <p>The other hope was that AI could find patterns in the winning numbers themselves. We tested every Powerball draw since its current 69-ball format began in October 2015, and every Mega Millions draw since its 70-ball format began in October 2017.</p>
+  </div>
+  <figure class="chart panel" style="padding:18px">
+    <div class="chart-title">How often each Powerball white ball was drawn</div>
+    <div class="chart-sub">1,414 draws from October 7, 2015 to September 28, 2026. Each draw adds five balls.</div>
+    <div class="svgbox" id="r-freq"></div>
+    <figcaption>The black line is the count every ball should average (102.5). The shaded band is where about 95% of counts land when every ball is equally likely. The most frequent ball, 61 (127 draws), and the least frequent, 13 (76), are about as far apart as 69 fair counts usually spread.</figcaption>
+    <details class="table-toggle"><summary>Show as a table</summary><div class="tablewrap"><table class="data" id="r-table"></table></div></details>
+  </figure>
+  <div class="stats" style="margin-top:18px">
+    <div class="stat"><div class="k">Fairness test on white balls (chi-square)</div><div class="v">p = 0.17</div><div class="d">Powerball. Mega Millions: p = 0.69. No sign of bias.</div></div>
+    <div class="stat"><div class="k">Bet the 10 “hottest” numbers of the last 100 draws</div><div class="v">0.745</div><div class="d">hits per draw</div></div>
+    <div class="stat"><div class="k">Bet the 10 “coldest” numbers</div><div class="v">0.730</div><div class="d">hits per draw</div></div>
+    <div class="stat"><div class="k">Pure chance, any 10 numbers</div><div class="v">0.725</div><div class="d">hits per draw</div></div>
+  </div>
+  <div class="prose" style="margin-top:22px">
+    <p>Hot numbers don't stay hot, and cold numbers aren't due. Across 1,314 test draws, betting on the recent favorites or the recent laggards landed within about one standard error (±0.02) of chance. Numbers from the previous draw came back 0.358 times per draw, against 0.362 expected. Mega Millions shows the same thing.</p>
+    <p>The draws are physical and supervised. Powerball uses ball machines with eight ball sets at the Florida Lottery studio in Tallahassee, observed by an independent accounting firm. Mega Millions uses machines at WSB-TV in Atlanta under Georgia Lottery supervision. Every known rigged draw was rigged by people: latex-injected balls in Pennsylvania's 1980 “Triple Six Fix”, or a lottery insider's hidden code in the Eddie Tipton case. None was caught by a frequency chart.</p>
+    <p>One of our checks did come out borderline. Powerball numbers that were frequent in the first half of the data were slightly more frequent in the second half too (correlation 0.26, p = 0.03). Split the draws any other way, odd against even or year by year, and it fades. The same test on Mega Millions finds nothing (p = 0.36). Run a dozen tests on random data and one of them usually looks like this. That is how “AI finds a pattern in the lottery” stories get made.</p>
+  </div>
+</section>
+
+<section id="edges" class="block">
+  <div class="block-head">
+    <div class="eyebrow">History</div>
+    <h2>People who really beat a lottery</h2>
+    <p>Real edges have existed. Every one came from a flaw in one particular game, and every one got closed.</p>
+  </div>
+  <div class="edges">
+    <div class="edge">
+      <div class="when">1992</div>
+      <div>
+        <h3>Stefan Mandel buys up Virginia<span class="tag math">Math</span></h3>
+        <p>Virginia's lotto had 7,059,052 combinations at $1 and a record jackpot of about $27M. Mandel's fund of about 2,500 investors pre-printed play slips in Australia and bought millions of tickets, around 5 million by 1992 accounts. It held the only winning ticket.</p>
+      </div>
+      <div class="closed"><b>Closed by</b>Rules against bulk buying, and games far too big to cover. Every Powerball combination would cost $584M.</div>
+    </div>
+    <div class="edge">
+      <div class="when">1992</div>
+      <div>
+        <h3>An Irish syndicate buys 80% of the Lotto<span class="tag math">Math</span></h3>
+        <p>Ireland's 6-from-36 game had 1,947,792 combinations. A 28-member syndicate bought over 80% of them and held the winning line for the IR£1.7M jackpot. Two other tickets won too, so it kept a third, and lower prizes lifted its profit to about IR£310,000.</p>
+      </div>
+      <div class="closed"><b>Closed by</b>A switch to 6-from-39 three months later.</div>
+    </div>
+    <div class="edge">
+      <div class="when">2003</div>
+      <div>
+        <h3>Mohan Srivastava reads scratch tickets<span class="tag">Game flaw</span></h3>
+        <p>A Toronto geostatistician noticed that the visible numbers on Ontario's Tic-Tac-Toe scratch ticket gave away winners. He sorted 20 unscratched tickets and called 19 correctly, then reported it instead of cashing in.</p>
+      </div>
+      <div class="closed"><b>Closed by</b>The lottery pulling the game.</div>
+    </div>
+    <div class="edge">
+      <div class="when">2004–12</div>
+      <div>
+        <h3>Cash WinFall's roll-down loophole<span class="tag math">Math</span></h3>
+        <p>When the Massachusetts jackpot passed $2M without a winner, the whole pool rolled down to the smaller prizes, so every $2 ticket carried at least $2.30 of prize money. A retired Michigan couple and a group of MIT students bought hundreds of thousands of tickets on those draws. Syndicates wagered about $40M and won about $48M.</p>
+      </div>
+      <div class="closed"><b>Closed by</b>A 2011 Boston Globe investigation. The game ended in January 2012. Powerball and Mega Millions never roll down.</div>
+    </div>
+    <div class="edge">
+      <div class="when">2005–11</div>
+      <div>
+        <h3>Eddie Tipton rigs the random-number generators<span class="tag fraud">Fraud</span></h3>
+        <p>The security director of the Multi-State Lottery Association hid code that made some games' draws predictable on a few dates each year. His brother and friends claimed prizes in Colorado, Wisconsin, Oklahoma and Kansas before a claim on an Iowa jackpot unraveled it.</p>
+      </div>
+      <div class="closed"><b>Closed by</b>A 25-year sentence in 2017. The only known “edge” in one of that association's games was this crime.</div>
+    </div>
+    <div class="edge">
+      <div class="when">2023</div>
+      <div>
+        <h3>A syndicate buys out Lotto Texas<span class="tag math">Math</span></h3>
+        <p>Lotto Texas has 25,827,165 combinations at $1. Buyers backed by Australian gamblers covered more than 99% of them for about $25.8M, reportedly skipping the most popular combinations, and took the $57.8M cash jackpot.</p>
+      </div>
+      <div class="closed"><b>Closed by</b>Texas made selling over 100 tickets in one transaction a crime and abolished its lottery commission in 2025. Arizona, New York, Idaho and Maine have added bulk-buying limits since.</div>
+    </div>
+    <div class="edge">
+      <div class="when">2023</div>
+      <div>
+        <h3>27 tickets that guarantee a win<span class="tag math">Math</span></h3>
+        <p>Manchester mathematicians David Cushing and David Stewart used finite geometry to find 27 UK Lotto tickets (£54) that always match at least two numbers, and proved 26 can't.</p>
+      </div>
+      <div class="closed"><b>The catch</b>Matching two numbers wins a free £2 Lucky Dip. The expected loss on the set is about £28. Guaranteed to win is not guaranteed to profit.</div>
+    </div>
+  </div>
+  <div class="cols" style="margin-top:32px">
+    <div>
+      <h3 style="margin-bottom:10px">Why none of this works on Powerball or Mega Millions</h3>
+      <ul class="list-x">
+        <li>Covering every combination costs $584M for Powerball and $1.45B for Mega Millions, and you'd still share the jackpot with everyone else who won.</li>
+        <li>There are no roll-downs. An unwon jackpot just grows.</li>
+        <li>Smaller prizes are fixed amounts outside California, so there is no pool to capture.</li>
+        <li>Ball machines are audited, and past numbers carry no information.</li>
+        <li>Buying huge blocks of tickets is now restricted in Texas, New York, Arizona, Idaho and Maine.</li>
+      </ul>
+    </div>
+    <div>
+      <h3 style="margin-bottom:10px">Where a sliver of edge still exists</h3>
+      <ul class="list-check">
+        <li><span><b>Crowd-avoiding numbers.</b> The one lever on these games, worth a few percent of the jackpot's value at record sizes.</span></li>
+        <li><span><b>California's split prizes.</b> Every California prize tier is shared among California winners. Over the last 118 Powerball draws its Match 4 paid anywhere from $241 to $865: a median of $376 when three or more winning numbers were 31 or lower, against $445 otherwise. There, unpopular numbers raise the small prizes too.</span></li>
+        <li><span><b>Scratch-off data.</b> States like Texas publish how many prizes remain in each scratch game, and pricier games pay back more (75 to 80% on some $20 to $100 Texas tickets). A game near its end can rarely turn positive, but claimed-late prizes make the data look better than it is (Garibaldi, 2024).</span></li>
+        <li><span><b>Second-chance drawings.</b> Many states let you enter losing tickets into free extra drawings. It adds cents per ticket, and it's free.</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="ai" class="block">
+  <div class="block-head">
+    <div class="eyebrow">The honest pitch</div>
+    <h2>What AI is actually good for here</h2>
+    <p>This page was built the way you suggested: an AI crunching public data. That is how it found the real, small levers above, and why it can say with confidence that there is no big one.</p>
+  </div>
+  <div class="cols">
+    <div>
+      <h3 style="margin-bottom:10px">Useful</h3>
+      <ul class="list-check">
+        <li>Doing the expected-value math properly: cash value, taxes, every prize tier and the odds of splitting.</li>
+        <li>Reading public data at scale. The popularity model here came from the prize-winner counts of 2,327 draws.</li>
+        <li>Generating tickets that avoid the crowd and don't overlap.</li>
+        <li>Checking your favorite numbers for patterns other people also play.</li>
+        <li>Ranking scratch-off games by the prizes left, where a state publishes it.</li>
+        <li>Telling you when not to play, which is almost always.</li>
+      </ul>
+    </div>
+    <div>
+      <h3 style="margin-bottom:10px">Not possible</h3>
+      <ul class="list-x">
+        <li>Predicting winning numbers. The balls have no memory, and 2,345 draws show no usable bias.</li>
+        <li>Finding patterns in past results. In random data, every pattern is noise, and models that claim otherwise are overfitting.</li>
+        <li>Changing the house edge. Half of every dollar never comes back as prizes, and taxes come out of what does.</li>
+        <li>Making a Powerball or Mega Millions ticket worth its price, even at the $2.04B record.</li>
+        <li>Guaranteeing a profit. “Guaranteed win” systems guarantee small prizes at a loss.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="faq" class="block faq">
+  <div class="block-head">
+    <div class="eyebrow">Questions</div>
+    <h2>FAQ</h2>
+  </div>
+  <details>
+    <summary>Are quick picks worse than choosing my own numbers?</summary>
+    <p>No. Every combination has exactly the same odds. Quick picks are slightly better than typical self-picks, because they are random and don't pile onto birthdays. Only deliberately unpopular picks beat them, and only by splitting less.</p>
+  </details>
+  <details>
+    <summary>Should I avoid numbers that just came up?</summary>
+    <p>It makes no difference to your odds. The machine doesn't remember the last draw. Some players avoid recent numbers and some replay whole winning sets, so exact past winners are worth avoiding for splitting reasons only.</p>
+  </details>
+  <details>
+    <summary>Do wheeling systems work?</summary>
+    <p>A wheel arranges numbers so that if some of them are drawn, you're guaranteed a small prize. It doesn't change the value of any ticket or the jackpot odds per ticket. The spread builder above does the useful part for free.</p>
+  </details>
+  <details>
+    <summary>Does buying more tickets improve my odds?</summary>
+    <p>Yes, in direct proportion, and your expected loss grows in the same proportion. 100 Powerball tickets are 100 chances in 292 million, and at tonight's jackpot they lose about $137 on average.</p>
+  </details>
+  <details>
+    <summary>Is Power Play worth it?</summary>
+    <p>Per dollar, the $1 Power Play returns about 41 cents after tax, a little more than the base ticket's 32 cents at tonight's jackpot, because it only multiplies smaller prizes that are taxed lightly. It still loses 59 cents of every dollar. Mega Millions has no add-on: its $5 price includes a random 2× to 10× multiplier that averages exactly 3×.</p>
+  </details>
+  <details>
+    <summary>Why does Mega Millions look so different?</summary>
+    <p>Since April 2025 it costs $5 a play, and sales collapsed: 5 to 25 million plays a draw, against 8 to 280 million for Powerball. Splits are rare, but the price is so high that even the $1.6B record jackpot, with no taxes and no splitting, would make a ticket worth about $3.85.</p>
+  </details>
+  <details>
+    <summary>Should a pool or office syndicate play?</summary>
+    <p>A pool doesn't change the value per dollar. It trades a tiny chance at a huge prize for a bigger chance at a smaller one. If you do it, write down who paid for which tickets before the draw.</p>
+  </details>
+  <details>
+    <summary>What about the woman who won four big Texas prizes?</summary>
+    <p>Joan Ginther won about $20M across four Texas prizes between 1993 and 2010. A records-based Philadelphia Inquirer investigation found she claimed 28 prizes from $1,000 to $10M after buying enormous numbers of expensive scratch tickets, and found no evidence of inside information. Her doctorate was in mathematics education, not statistics.</p>
+  </details>
+  <details>
+    <summary>Lump sum or annuity?</summary>
+    <p>They are worth about the same today. The advertised jackpot is 30 payments that grow 5% a year, and the cash option is what the lottery would spend on bonds to fund them, about 41% of the headline right now. That's why this page values jackpots at the cash option.</p>
+  </details>
+  <details>
+    <summary>So is it ever rational to play?</summary>
+    <p>As entertainment with money set aside for fun, sure. As a way to make money, no. After tax a ticket returns roughly 30 to 45 cents on the dollar, and the only math that ever beat a lottery needed a flawed game and millions of dollars.</p>
+  </details>
+</section>
+
+<footer class="foot" id="sources">
+  <h2>Sources and method</h2>
+  <div class="cols">
+    <div>
+      <h3>Data</h3>
+      <ol>
+        <li>Winning numbers: New York State Open Data, <a href="https://data.ny.gov/d/d6yy-54nr">Powerball</a> (2010–2026) and <a href="https://data.ny.gov/d/5xaw-6ayf">Mega Millions</a> (2002–2026).</li>
+        <li>Prize-tier winner counts: <a href="https://www.powerball.com/previous-results">powerball.com</a> draw results (1,396 draws) and <a href="https://www.megamillions.com/Winning-Numbers/Previous-Drawings.aspx">megamillions.com</a> draw data (931 draws), collected September 30, 2026.</li>
+        <li>Ticket sales per draw: <a href="https://www.lottoreport.com/powerballsales.htm">LottoReport.com</a>, with advertised jackpots from the Texas Lottery.</li>
+        <li>California pari-mutuel prizes: California Lottery draw-results API, last 118 Powerball draws.</li>
+        <li>Rules and prize tables: <a href="https://www.powerball.com/powerball-prize-chart">Powerball prize chart</a>, <a href="https://www.megamillions.com/How-to-Play.aspx">Mega Millions how to play</a>. Jackpot records: Wikipedia's lottery jackpot records, checked against the official sites.</li>
+        <li>Taxes: IRS Instructions for Form W-2G (2026); IRS Rev. Proc. 2025-32 (2026 brackets); 26 U.S.C. §165(d) (90% gambling-loss limit from 2026); Tax Foundation 2026 state rates plus 2026 cuts in AR, GA, SC and WV; Cal. Gov. Code §8880.68; Pennsylvania Act 84 of 2016.</li>
+      </ol>
+    </div>
+    <div>
+      <h3>Research</h3>
+      <ol>
+        <li>Abrams &amp; Garibaldi (2010), “Finding Good Bets in the Lottery, and Why You Shouldn't Take Them”, <i>American Mathematical Monthly</i> 117(1).</li>
+        <li>Wang, Potter van Loon, van den Assem &amp; van Dolder (2016), “Number preferences in lotteries”, <i>Judgment and Decision Making</i> 11(3).</li>
+        <li>Polin, Ben Isaac &amp; Aharon (2021), manual picks in the Israeli lottery, <i>Judgment and Decision Making</i> 16(4).</li>
+        <li>Moffitt &amp; Ziemba (2018), “A Method for Winning at Lotteries”, <a href="https://arxiv.org/abs/1801.02958">arXiv:1801.02958</a>. Cook &amp; Clotfelter (1993), <i>American Economic Review</i> 83(3).</li>
+        <li>Cushing &amp; Stewart (2023), <a href="https://arxiv.org/abs/2307.12430">arXiv:2307.12430</a>. Garibaldi (2024), scratch-off strategy, <i>College Mathematics Journal</i> 55(2).</li>
+        <li>Case reporting: Boston Globe and WBUR (Cash WinFall), Texas Lottery and Texas Tribune (Lotto Texas), AP and court records (Tipton), Philadelphia Inquirer (Ginther).</li>
+      </ol>
+    </div>
+  </div>
+  <h3 style="margin-top:18px">How the numbers are made</h3>
+  <p class="prose">Ticket value uses the cash option, 37% federal tax plus state tax on prizes of $1M or more, 24% on prizes over $5,000, and no tax on smaller prizes, which flatters the ticket slightly. Splitting uses a Poisson model: with λ other copies of your ticket expected, your average share is (1 − e<sup>−λ</sup>)/λ. Expected ticket sales at each jackpot size come from the median sales of past draws at similar jackpots (Powerball since August 2021, Mega Millions since the April 2025 format). The popularity model says each self-picked ticket's five numbers are chosen with probability proportional to the product of per-number weights, mixed with 70% uniform quick picks. It is fitted to all nine prize tiers of every draw by maximum likelihood, with each draw's ticket count estimated along the way. It captures single-number habits, not famous patterns, which is why the crowd check flags patterns separately. All figures are as of September 30, 2026.</p>
+  <p class="helpline">This page is for fun and for math. It isn't financial advice. If gambling stops being fun, the U.S. National Problem Gambling Helpline is 1-800-GAMBLER (call or text), free and confidential, 24/7.</p>
+</footer>
+
+</main>
+<!--SCRIPTS-->

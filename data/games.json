@@ -1,0 +1,33 @@
+{
+  "asOf": "2026-09-30",
+  "games": [
+    {
+      "id": "pb", "name": "Powerball", "bonusName": "Powerball", "price": 2, "whites": 69, "bonus": 26,
+      "tiers": [
+        {"k": 5, "m": 1, "jackpot": true}, {"k": 5, "m": 0, "base": 1000000}, {"k": 4, "m": 1, "base": 50000},
+        {"k": 4, "m": 0, "base": 100}, {"k": 3, "m": 1, "base": 100}, {"k": 3, "m": 0, "base": 7},
+        {"k": 2, "m": 1, "base": 7}, {"k": 1, "m": 1, "base": 4}, {"k": 0, "m": 1, "base": 4}
+      ],
+      "multiplier": null,
+      "addon": {"name": "Power Play", "price": 1, "dist": [[2, 24], [3, 13], [4, 3], [5, 2], [10, 1]], "tenXCap": 150000000, "match5": 2000000},
+      "current": {"annuity": 409000000, "cash": 170200000, "drawDate": "2026-09-30"},
+      "records": [
+        {"date": "2022-11-07", "year": 2022, "annuity": 2040000000, "cash": 997600000, "winners": 1, "where": "CA"}
+      ]
+    },
+    {
+      "id": "mm", "name": "Mega Millions", "bonusName": "Mega Ball", "price": 5, "whites": 70, "bonus": 24,
+      "tiers": [
+        {"k": 5, "m": 1, "jackpot": true}, {"k": 5, "m": 0, "base": 1000000}, {"k": 4, "m": 1, "base": 10000},
+        {"k": 4, "m": 0, "base": 500}, {"k": 3, "m": 1, "base": 200}, {"k": 3, "m": 0, "base": 10},
+        {"k": 2, "m": 1, "base": 10}, {"k": 1, "m": 1, "base": 7}, {"k": 0, "m": 1, "base": 5}
+      ],
+      "multiplier": [[2, 15], [3, 10], [4, 4], [5, 2], [10, 1]],
+      "addon": null,
+      "current": {"annuity": 321000000, "cash": 131100000, "drawDate": "2026-10-02"},
+      "records": [
+        {"date": "2023-08-08", "year": 2023, "annuity": 1602000000, "cash": 794200000, "winners": 1, "where": "FL"}
+      ]
+    }
+  ]
+}
